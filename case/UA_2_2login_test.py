@@ -23,7 +23,7 @@ class emp_login(unittest.TestCase):
         r = requests.post('http://192.168.31.188:9280/login',data=payload,headers=head)
         self.result = r.json()
 
-        self.assertEqual(self.result['errorCode'], 0)
+
         self.assertEqual(self.result['result'], True)
         self.assertEqual(self.result['success'], True)
 
@@ -36,7 +36,7 @@ class emp_login(unittest.TestCase):
         r = requests.post('http://192.168.31.188:9280/login',data=payload,headers=head)
         self.result = r.json()
 
-        self.assertEqual(self.result['errorCode'], 0)
+
         self.assertEqual(self.result['result'], False)
         self.assertEqual(self.result['success'], False)
 
@@ -49,7 +49,7 @@ class emp_login(unittest.TestCase):
         r = requests.post('http://192.168.31.188:9280/login',data=payload,headers=head)
         self.result = r.json()
 
-        self.assertEqual(self.result['errorCode'], 0)
+
         self.assertEqual(self.result['result'], False)
         self.assertEqual(self.result['success'], False)
 
@@ -61,7 +61,7 @@ class emp_login(unittest.TestCase):
         r = requests.post('http://192.168.31.188:9280/login',data=payload,headers=head)
         self.result = r.json()
 
-        self.assertEqual(self.result['errorCode'], 0)
+
         self.assertEqual(self.result['result'], False)
         self.assertEqual(self.result['success'], False)
 
@@ -73,7 +73,7 @@ class emp_login(unittest.TestCase):
         r = requests.post('http://192.168.31.188:9280/login',data=payload,headers=head)
         self.result = r.json()
 
-        self.assertEqual(self.result['errorCode'], 0)
+
         self.assertEqual(self.result['result'], False)
         self.assertEqual(self.result['success'], False)
 
@@ -86,7 +86,7 @@ class emp_login(unittest.TestCase):
         r = requests.post('http://192.168.31.188:9280/login',data=payload,headers=head)
         self.result = r.json()
 
-        self.assertEqual(self.result['errorCode'], 0)
+
         self.assertEqual(self.result['result'], False)
         self.assertEqual(self.result['success'], False)
 
