@@ -17,7 +17,7 @@ class emp_checkRoleName(unittest.TestCase):
         table_name2 = "ua_employee"
         table_name3 = "ua_role_emp"
         data = {'ROLE_CODE':'ROLE01','ROLE_NAME': '测试角色α', 'PINYIN': 'AERFA','STATUS': '1'}
-        data2 = {'EMP_CNAME': '测试账号α', 'EMP_NAME': 'ZHANGHAO1', 'PASSWORD': 'e10adc3949ba59abbe56e057f20f883e',
+        data2 = {'EMP_CNAME': '测试账号α', 'EMP_NAME': 'ZHANGHAO1', 'PASSWORD': '508df4cb2f4d8f80519256258cfb975f',
                  'EMP_STATUS': '1', 'CELL_PHONE': '123456'}
 
         db = DB()

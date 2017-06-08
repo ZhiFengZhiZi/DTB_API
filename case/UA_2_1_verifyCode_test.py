@@ -27,8 +27,6 @@ class emp_login(unittest.TestCase):
 
 
 
-
-
     def tearDown(self):
         print(self.result)
 

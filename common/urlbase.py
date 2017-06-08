@@ -7,24 +7,24 @@ def sit():
 
 def sit_emp():
 
-    url = 'http://192.168.31.188:9280'
+    url = 'http://192.168.31.188:8801'
     return url
 
 
 def sit_admin():
 
-    url='http://192.168.31.188:8280'
+    url='http://'
     return url
 
 
 def pre():
 
-    url='http://192.168.31.190:8080'
+    url='http://'
     return url
 
 
 def pre_admin():
-    url = 'http://192.168.31.190:8280'
+    url = 'http://'
     return url
 
 

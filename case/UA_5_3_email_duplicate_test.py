@@ -9,7 +9,7 @@ from db.mysql_db import DB
 from db import test_data
 
 class emp_phone_duplicate(unittest.TestCase):
-    ''' 人员手机号查重接口 '''
+    ''' 人员邮箱查重接口 '''
 
     def setUp(self):
 
@@ -19,7 +19,7 @@ class emp_phone_duplicate(unittest.TestCase):
         test_data.ua_roleemp_insert(empid=self.s1, roleid=1)
 
         self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/emp/checkCellPhone"
+        self.base_url = urlbase.sit_emp() + "/emp/checkEmail"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         ##以x-www-form-urlencoded
         payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
@@ -28,8 +28,8 @@ class emp_phone_duplicate(unittest.TestCase):
 
 
     def test_params_correct(self):
-        ''' 正确的参数_不存在的手机号'''
-        payload = {"empId":self.s1,"cellPhone":"654321000299"}
+        ''' 正确的参数_不存在的邮箱'''
+        payload = {"empId":self.s1,"email":"JIEKOUCESHI3@ZHIFENG.COM"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
@@ -37,19 +37,18 @@ class emp_phone_duplicate(unittest.TestCase):
         time.sleep(1)
 
     def test_param_now_correct(self):
-        ''' 正确的参数_当前的手机号'''
-        payload = {"empId":self.s1,"cellPhone":"9898123456"}
+        ''' 正确的参数_当前的邮箱'''
+        payload = {"empId":self.s1,"email":"JIEKOUCESHI@ZHIFENG.COM"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
         self.assertEqual(self.result['resultObject'], None)
         time.sleep(1)
 
-
     def test_phone_null(self):
-        ''' 正确的参数_手机号为空'''
+        ''' 正确的参数_邮箱为空'''
 
-        payload = {"empId":self.s1,"cellPhone":""}
+        payload = {"empId":self.s1,"email":""}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
@@ -58,8 +57,8 @@ class emp_phone_duplicate(unittest.TestCase):
 
 
     def test_get_userinfo_wrong_empphone(self):
-        ''' 正确的参数_存在的手机号'''
-        payload = {"empId":self.s1,"cellPhone":"1010123456"}
+        ''' 错误的参数_存在的邮箱'''
+        payload = {"empId":self.s1,"email":"JIEKOUCESHI2@ZHIFENG.COM"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
@@ -69,7 +68,7 @@ class emp_phone_duplicate(unittest.TestCase):
 
     def test_get_userinfo_wrong_id(self):
         ''' 错误的参数_不存在的id'''
-        payload = {"empId": 99998, "cellPhone": "9898123456"}
+        payload = {"empId": 99998, "email": "JIEKOUCESHI@ZHIFENG.COM"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)

@@ -6,133 +6,124 @@ import time
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parentdir)
 from db.mysql_db import DB
-
+from db import test_data
 
 class emp_createEdit_role_info(unittest.TestCase):
     ''' 新增编辑角色详情接口 '''
 
     def setUp(self):
 
-        table_name = "ua_role"
-        self.data = {'ROLE_CODE':'ROLE01','ROLE_NAME': '测试角色α', 'PINYIN': 'AERFA','STATUS': '1'}
+        test_data.ua_role_insert(count=1)
+        test_data.ua_emp_insert(count=1)
 
-        db = DB()
-        db.insert(table_name=table_name, table_data=self.data)
-        sdata = {'ROLE_NAME': '测试角色α'}
-        self.s1 = db.select(table_value='id', table_name=table_name, table_data=sdata)
-        print("id:"+str(self.s1))
-        db.close()
+        self.s1 = test_data.ua_emp_search(value='id', type='β')
+        self.s2=test_data.ua_role_search(value='id',type='α')
+
+        test_data.ua_roleemp_insert(empid=self.s1,roleid='1')
 
         self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/role/getRoleInfoList.htm"
+
+        self.base_url = urlbase.sit_emp() + "/role/addRoleInfo"
+
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
-        ##以x-www-form-urlencoded
-        payload = {'username': 'ceshi', 'password': '123456', 'verifyCode': '0000'}
+        payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
         self.s = requests.Session()
+
         r1 = self.s.post(self.base_url_login, data=payload, headers=head)
+        print(r1.text)
 
 
     def test_createparams_correct(self):
         ''' 正确的参数_all（新增）'''
-        payload = {"roleName":"测试角色β","remark":"我是描述","opType":"0"}
+        payload = {"empId":self.s1,"roleName":"测试角色β","remark":"我是描述","opType":"0"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
- #       self.assertEqual(self.result['message'], '操作成功!')
         self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'][0]['roleName'], '测试角色β')
-
+        s=test_data.ua_role_search(value='ROLE_NAME',type='β')
+        self.assertEqual(s,'测试角色β')
         time.sleep(1)
 
     def test_createparams_opTypeNull_correct(self):
         ''' 正确的参数_all（opType不传，默认新增）'''
-        payload = {"roleName":"测试角色β", "remark": "我是描述"}
+        payload = {"empId":self.s1,"roleName":"测试角色β","remark":"我是描述"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
         self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'][0]['roleName'], '测试角色β')
-
+        s=test_data.ua_role_search(value='ROLE_NAME',type='β')
+        self.assertEqual(s,'测试角色β')
         time.sleep(1)
 
-    def test_createparams_id_incorrect(self):
-        ''' 错误的参数_id（新增传入测试数据的id）'''
-        payload = {"id":self.s1,"roleName":"测试角色β", "remark": "我是描述"}
-        r2 = self.s.get(self.base_url, params=payload)
-        self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
-        self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'][0]['roleName'], '测试角色α')
-
-        time.sleep(1)
 
     def test_createparams_allnull_incorrect(self):
         ''' 错误的参数_allNull'''
-        payload = {"roleName":"", "remark": ""}
+        payload = {"id":"","empId":"","roleName":"","remark":""}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
-        self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'][0]['roleName'], '测试角色α')
-
+        self.assertEqual(self.result['result'], False)
         time.sleep(1)
+
 
     def test_editparams_correct(self):
         ''' 正确的参数_all（编辑）'''
-        payload = {"id":self.s1,"roleName":"测试角色β", "remark": "我是描述","opType":"1"}
+        payload = {"id":self.s2,"empId":self.s1,"roleName":"测试角色β","remark":"我是描述","opType":"1"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
         self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'][0]['roleName'], '测试角色α')
+        s=test_data.ua_role_search(value='ROLE_NAME',type='β')
+        self.assertEqual(s,'测试角色β')
+        time.sleep(1)
 
 
     def test_editparams_remarkNull_correct(self):
         ''' 正确的参数_remarkNull（编辑）'''
-        payload = {"id":self.s1,"roleName":"测试角色β", "remark": "","opType":"1"}
+        payload = {"id":self.s2,"empId":self.s1,"roleName":"测试角色β","remark":"","opType":"1"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
         self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'][0]['roleName'], '测试角色α')
+        s=test_data.ua_role_search(value='ROLE_NAME',type='β')
+        self.assertEqual(s,'测试角色β')
+        time.sleep(1)
 
 
     def test_editparams_id_incorrect(self):
         ''' 错误的参数_不存在的Id（编辑）'''
-        payload = {"id":9998,"roleName":"测试角色β", "remark": "我是描述","opType":"1"}
+        payload = {"id":9998,"empId":self.s1,"roleName":"测试角色β", "remark": "我是描述","opType":"1"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
         self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'][0]['roleName'], '测试角色α')
+
 
     def test_editparams_idNull_incorrect(self):
-        ''' 错误的参数_不存在的Id（编辑）'''
-        payload = {"id":"","roleName":"测试角色β", "remark": "我是描述","opType":"1"}
+        ''' 错误的参数_空的Id（编辑）'''
+        payload = {"id":"","empId":self.s1,"roleName":"测试角色β", "remark": "我是描述","opType":"1"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
         self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'], None)
+
 
     def test_editparams_roleNameNull_incorrect(self):
         ''' 错误的参数_name为空值'''
-        payload = {"id":self.s1,"roleName":"", "remark": "我是描述","opType":"1"}
+        payload = {"id":self.s2,"empId":self.s1,"roleName":"", "remark": "我是描述","opType":"1"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
-        self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'], None)
+        self.assertEqual(self.result['result'], False)
+
+    def test_editparams_roleNameSame_incorrect(self):
+        ''' 错误的参数_name值为原值'''
+        payload = {"id":self.s2,"empId":self.s1,"roleName":"测试角色α", "remark": "我是描述","opType":"1"}
+        r2 = self.s.get(self.base_url, params=payload)
+        self.result = r2.json()
+        self.assertEqual(self.result['result'], False)
+
 
 
     def tearDown(self):
+        test_data.ua_roleemp_delete(EMP_ID=self.s1)
+        test_data.ua_role_delete(type='α')
+        test_data.ua_role_delete(type='β')
 
-        self.table_name = "ua_role"
-        self.data = {'ROLE_NAME': '测试角色α'}
-        self.data2 = {'ROLE_NAME': '测试角色β'}
-        db = DB()
-        db.clear(table_name=self.table_name,table_data=self.data)
-        db.clear(table_name=self.table_name, table_data=self.data2)
-        db.close()
+        test_data.ua_emp_delete(type='β')
+
 
         print(self.result)
 
