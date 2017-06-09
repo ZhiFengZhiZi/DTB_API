@@ -16,6 +16,7 @@ class get_userinfo(unittest.TestCase):
         self.base_url = urlbase.sit_emp()+"/emp/getEmpInfo"
         self.base_url_login = urlbase.sit_emp() + "/login"
 
+
         test_data.ua_emp_insert(count=1)
         self.empid=test_data.ua_emp_search(value="id",type='β')
 
@@ -30,7 +31,7 @@ class get_userinfo(unittest.TestCase):
 
         r1 = self.s.post(self.base_url_login, data=payload, headers=head).json()
         self.token = r1["resultObject"]
-        print(self.token)
+        print(r1)
 
     def test_token_success(self):
         ''' 正确的token'''

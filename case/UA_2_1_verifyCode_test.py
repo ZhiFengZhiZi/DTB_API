@@ -20,10 +20,8 @@ class emp_login(unittest.TestCase):
 
         ##以x-www-form-urlencoded
         r = requests.get(self.base_url)
-        self.result = r.json()
-
-
-        self.assertIsNone(self.result)
+        self.result = r.status_code
+        self.assertEqual(self.result,200)
 
 
 

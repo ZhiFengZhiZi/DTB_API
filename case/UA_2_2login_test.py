@@ -15,7 +15,7 @@ class emp_login(unittest.TestCase):
 
         nowtime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
         ##获取当前时间
-        db = DB()
+        test_data.ua_emp_insert(2)
 
         self.base_url = urlbase.sit_emp() + "/login"
         self.base_url_login = urlbase.sit_emp() + "/login"
@@ -44,12 +44,10 @@ class emp_login(unittest.TestCase):
         payload = {'username':'ZHANGHAO1','password':'123456','verifyCode':'0000'}
         r = requests.post(self.base_url,data=payload,headers=head)
         self.result = r.json()
-
-
         self.assertEqual(self.result['result'], True)
         self.assertEqual(self.result['username'], 'ZHANGHAO1')
         self.assertEqual(self.result['changePwd'], True)
-        self.assertEqual(self.result['resultObject'], not None)
+        self.assertTrue(self.result['resultObject'], not None)
 
     def test_login_pwd_wrong(self):
         ''' 错误的密码 '''
@@ -58,8 +56,6 @@ class emp_login(unittest.TestCase):
         payload = {'username':'ZHANGHAO2','password':'654321','verifyCode':'0000'}
         r = requests.post(self.base_url,data=payload,headers=head)
         self.result = r.json()
-
-
         self.assertEqual(self.result['result'], False)
         self.assertEqual(self.result['resultObject'], None)
 

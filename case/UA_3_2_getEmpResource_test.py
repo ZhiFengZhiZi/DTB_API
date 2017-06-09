@@ -13,7 +13,7 @@ class get_getEmpResource(unittest.TestCase):
 
     def setUp(self):
 
-        self.base_url = urlbase.sit_emp() + "/auth/getEmpResource.htm"
+        self.base_url = urlbase.sit_emp() + "/auth/getEmpResource"
         self.base_url_login = urlbase.sit_emp() + "/login"
 
         test_data.ua_emp_insert(count=1)
@@ -24,7 +24,7 @@ class get_getEmpResource(unittest.TestCase):
 
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         ##以x-www-form-urlencoded
-        payload = {'username': 'ZHANGHAO1', 'password': '234567', 'verifyCode': '0000'}
+        payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
         self.s = requests.Session()
 
 
