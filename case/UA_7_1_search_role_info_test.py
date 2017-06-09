@@ -22,7 +22,7 @@ class emp_search_role_info(unittest.TestCase):
 
 
         self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/role/getRoleInfoList"
+        self.base_url = urlbase.sit_emp() + "/role/getRoleInfo"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
         self.s = requests.Session()
@@ -31,11 +31,11 @@ class emp_search_role_info(unittest.TestCase):
 
     def test_params_correct(self):
         ''' 正确的参数_id'''
-        payload = {"roleid":self.s1}
+        payload = {"roleId":self.s1}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
-        self.assertEqual(self.result['resultObject'][0]['roleName'], "测试角色α")
+        self.assertEqual(self.result['resultObject']['roleName'], "测试角色α")
 
         time.sleep(1)
 
@@ -43,7 +43,7 @@ class emp_search_role_info(unittest.TestCase):
     def test_incorrect_id(self):
         ''' 错误的参数_不存在的id'''
 
-        payload = {"roleid":99999}
+        payload = {"roleId":99999}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
@@ -55,7 +55,7 @@ class emp_search_role_info(unittest.TestCase):
     def test_incorrect_null(self):
         ''' 错误的参数_null'''
 
-        payload = {"roleid": None}
+        payload = {"roleId": ""}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)

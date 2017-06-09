@@ -110,7 +110,7 @@ class emp_createEdit_role_info(unittest.TestCase):
 
     def test_editparams_roleNameSame_incorrect(self):
         ''' 错误的参数_name值为原值'''
-        payload = {"id":self.s2,"empId":self.s1,"roleName":"测试角色α", "remark": "我是描述","opType":"1"}
+        payload = {"empId":self.s1,"roleName":"测试角色α", "remark": "我是描述","opType":"0"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
