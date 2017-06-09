@@ -5,29 +5,25 @@ from common import urlbase
 import time
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parentdir)
-from db.mysql_db import DB
+from db import test_data
 
 
 class emp_updateResStatus_info(unittest.TestCase):
     ''' 删除资源详情接口 '''
 
     def setUp(self):
+        test_data.ua_res_insert(1)
+        test_data.ua_emp_insert(1)
+        self.emp=test_data.ua_emp_search(value='id',type='β')
+        test_data.ua_roleemp_insert(empid=self.emp,roleid=1)
+        self.s1=test_data.ua_res_search('id','α')
 
-        table_name = "ua_resource"
-        data = {'RES_NAME':'测试管理α','SYS_ID': 1, 'RES_TYPE': 0,'RES_LEVEL': '1'}
-
-        db = DB()
-        db.insert(table_name=table_name, table_data=data)
-        sdata = {'RES_NAME': '测试管理α'}
-        self.s1 = db.select(table_value='id', table_name=table_name, table_data=sdata)
-        print("id:"+str(self.s1))
-        db.close()
 
         self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/res/updateResStatus.htm"
+        self.base_url = urlbase.sit_emp() + "/res/updateResStatus"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         ##以x-www-form-urlencoded
-        payload = {'username': 'ceshi', 'password': '123456', 'verifyCode': '0000'}
+        payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
         self.s = requests.Session()
         r1 = self.s.post(self.base_url_login, data=payload, headers=head)
 
@@ -74,7 +70,7 @@ class emp_updateResStatus_info(unittest.TestCase):
 
     def test_status_null_incorrect(self):
         ''' 错误的参数_空的status'''
-        payload = {"resId":self.s1,'status':None}
+        payload = {"resId":self.s1,'status':''}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
@@ -84,11 +80,9 @@ class emp_updateResStatus_info(unittest.TestCase):
     def tearDown(self):
 
 
-        self.table_name = "ua_resource"
-        self.data = {'RES_NAME': '测试管理α'}
-        db = DB()
-        db.clear(table_name=self.table_name,table_data=self.data)
-        db.close()
+        test_data.ua_roleemp_delete(EMP_ID=self.emp)
+        test_data.ua_emp_delete(type='β')
+        test_data.ua_res_delete('α')
 
         print(self.result)
 

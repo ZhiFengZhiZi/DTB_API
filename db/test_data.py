@@ -162,6 +162,7 @@ def ua_res_insert(count):
 def ua_res_search(value, type):
         semp = {'RES_NAME': '测试管理α'}
         semp2 = {'RES_NAME': '测试管理β'}
+        semp3 = {'id': value}
         table_name = "ua_resource"
 
         if type == 'α':
@@ -173,6 +174,13 @@ def ua_res_search(value, type):
             db = DB()
 
             s = db.select(table_value=value, table_name=table_name, table_data=semp2)
+            db.close()
+
+        if type =='id':
+
+            db = DB()
+
+            s = db.select(table_value='RES_NAME', table_name=table_name, table_data=semp3)
             db.close()
 
         return s
@@ -209,6 +217,23 @@ def ua_roleemp_delete(EMP_ID):
 
     db = DB()
     db.clear(table_name=table_name, table_data=data)
+    db.close()
+
+
+def ua_resurls_delete(res_id):
+    data = {'RES_ID': res_id}
+    table_name = "ua_resource_urls"
+
+    db = DB()
+    db.clear(table_name=table_name,table_data=data)
+    db.close()
+
+def ua_resauth_delete(res_id):
+    data = {'RES_ID': res_id}
+    table_name = "ua_role_authorize"
+
+    db = DB()
+    db.clear(table_name=table_name,table_data=data)
     db.close()
 
 

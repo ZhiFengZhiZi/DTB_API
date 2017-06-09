@@ -6,26 +6,27 @@ import time
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parentdir)
 from db.mysql_db import DB
-
+from db import test_data
 
 class emp_login(unittest.TestCase):
     ''' 人员手机号查重接口 '''
 
     def setUp(self):
 
-        table_name = "ua_role"
-        data = {'ROLE_CODE':'ROLE01','ROLE_NAME': '测试角色α', 'PINYIN': 'AERFA','STATUS': '1'}
 
-        db = DB()
-        db.insert(table_name=table_name, table_data=data)
+        test_data.ua_emp_insert(count=2)
 
-        db.close()
+        self.s1 = test_data.ua_emp_search(value='id',type='β')
+        test_data.ua_roleemp_insert(empid=self.s1, roleid=1)
+        test_data.ua_role_insert(1)
+
+
 
         self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/role/getRoleInfoList.htm"
+        self.base_url = urlbase.sit_emp() + "/role/getRoleInfoList"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         ##以x-www-form-urlencoded
-        payload = {'username': 'ceshi', 'password': '123456', 'verifyCode': '0000'}
+        payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
         self.s = requests.Session()
         r1 = self.s.post(self.base_url_login, data=payload, headers=head)
 
@@ -80,7 +81,7 @@ class emp_login(unittest.TestCase):
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
-        self.assertEqual(len(self.result['resultObject'][0]['roleName']),2)
+        self.assertEqual(len(self.result['resultObject']),2)
         time.sleep(1)
 
 
@@ -111,11 +112,11 @@ class emp_login(unittest.TestCase):
 
     def tearDown(self):
 
-        self.table_name = "ua_role"
-        self.data = {'ROLE_NAME': '测试角色α'}
-        db = DB()
-        db.clear(table_name=self.table_name,table_data=self.data)
-        db.close()
+        test_data.ua_roleemp_delete(EMP_ID=self.s1)
+        test_data.ua_emp_delete(type='β')
+        test_data.ua_emp_delete(type='α')
+        test_data.ua_role_delete('α')
+
 
         print(self.result)
 

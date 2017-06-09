@@ -5,7 +5,7 @@ from common import urlbase
 import time
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parentdir)
-from db.mysql_db import DB
+from db import test_data
 
 
 class emp_delete_role(unittest.TestCase):
@@ -13,21 +13,18 @@ class emp_delete_role(unittest.TestCase):
 
     def setUp(self):
 
-        table_name = "ua_role"
-        data = {'ROLE_CODE':'ROLE01','ROLE_NAME': '测试角色α', 'PINYIN': 'AERFA','STATUS': '1'}
-        sdata = {'ROLE_NAME': '测试角色α'}
-        db = DB()
-        db.insert(table_name=table_name, table_data=data)
-
-        self.s1 = db.select(table_value='id', table_name=table_name, table_data=sdata)
-        print("id:" + str(self.s1))
-        db.close()
+        test_data.ua_emp_insert(count=1)
+        test_data.ua_role_insert(count=1)
+        self.emp = test_data.ua_emp_search(value='id',type='β')
+        self.s1 = test_data.ua_role_search(value='id',type='α')
+        test_data.ua_roleemp_insert(empid=self.emp, roleid=1)
+        test_data.ua_role_insert(1)
 
         self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/role/delRole.htm"
+        self.base_url = urlbase.sit_emp() + "/role/delRole"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         ##以x-www-form-urlencoded
-        payload = {'username': 'ceshi', 'password': '123456', 'verifyCode': '0000'}
+        payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
         self.s = requests.Session()
         r1 = self.s.post(self.base_url_login, data=payload, headers=head)
 
@@ -71,11 +68,9 @@ class emp_delete_role(unittest.TestCase):
 
     def tearDown(self):
 
-        self.table_name = "ua_role"
-        self.data = {'ROLE_NAME': '测试角色α'}
-        db = DB()
-        db.clear(table_name=self.table_name,table_data=self.data)
-        db.close()
+        test_data.ua_roleemp_delete(EMP_ID=self.emp)
+        test_data.ua_emp_delete(type='β')
+        test_data.ua_role_delete('α')
 
         print(self.te)
 

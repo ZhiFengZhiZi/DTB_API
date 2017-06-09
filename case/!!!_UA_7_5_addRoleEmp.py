@@ -6,7 +6,7 @@ import time
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parentdir)
 from db.mysql_db import DB
-
+from db import test_data
 
 class emp_checkRoleName(unittest.TestCase):
     ''' 校验角色名称接口 '''
@@ -21,6 +21,11 @@ class emp_checkRoleName(unittest.TestCase):
         data3 = {'EMP_CNAME': '测试账号γ2', 'EMP_NAME': 'ZHANGHAO2', 'PASSWORD': 'e10adc3949ba59abbe56e057f20f883e',
                  'EMP_STATUS': '1', 'CELL_PHONE': '123456789'}
 
+
+        test_data.ua_emp_insert(1)
+        self.emp = test_data.ua_emp_search(value='id',type='β')
+        test_data.ua_roleemp_insert(empid=self.emp,roleid=1)
+        print(self.emp)
 
         db = DB()
         db.insert(table_name=table_name, table_data=data)
@@ -37,12 +42,11 @@ class emp_checkRoleName(unittest.TestCase):
         db.close()
 
         self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/role/addRoleEmp.htm"
+        self.base_url = urlbase.sit_emp() + "/role/addRoleEmp"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
-        ##以x-www-form-urlencoded
-        payload = {'username': 'ceshi', 'password': '123456', 'verifyCode': '0000'}
+        payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
         self.s = requests.Session()
-        r1 = self.s.post(self.base_url_login, data=payload, headers=head)
+        self.s.post(self.base_url_login, data=payload, headers=head)
 
 
     def test_correct_oneEmp(self):
@@ -50,7 +54,6 @@ class emp_checkRoleName(unittest.TestCase):
         payload = {"roleId":self.s1,"empIds":self.empid}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
- #       self.assertEqual(self.result['message'], '操作成功!')
         self.assertEqual(self.result['result'], True)
         self.assertEqual(self.result['resultObject'],None)
         time.sleep(1)
@@ -60,7 +63,6 @@ class emp_checkRoleName(unittest.TestCase):
         payload = {"roleId": self.s1, "empIds": str(self.empid)+','+str(self.empid2)}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        #       self.assertEqual(self.result['message'], '操作成功!')
         self.assertEqual(self.result['result'], True)
         self.assertEqual(self.result['resultObject'], None)
         time.sleep(1)
@@ -88,6 +90,10 @@ class emp_checkRoleName(unittest.TestCase):
 
 
     def tearDown(self):
+
+
+        test_data.ua_roleemp_delete(EMP_ID=self.emp)
+        test_data.ua_emp_delete(type='β')
 
         self.table_name = "ua_role"
         self.table_name2 = "ua_employee"
