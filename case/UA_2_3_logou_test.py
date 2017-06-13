@@ -15,16 +15,7 @@ class emp_login(unittest.TestCase):
         self.base_url_login = urlbase.sit_emp() + "/login"
 
 
-    def test_login_success(self):
-        ''' 没有登录执行'''
 
-        ##以x-www-form-urlencoded
-        r = requests.get(self.base_url)
-        self.result = r.json()
-
-
-        self.assertEqual(self.result['result'], False)
-        self.assertEqual(self.result['resultObject'], None)
 
 
     def test_login_pwd_wrong(self):

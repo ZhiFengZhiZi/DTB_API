@@ -30,29 +30,16 @@ class emp_updateResStatus_info(unittest.TestCase):
 
     def test_params_correct(self):
         ''' 正确的参数_all'''
-        payload = {"resId":self.s1,'status':0}
+        payload = {"resId":self.s1}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
         self.assertEqual(self.result['resultObject'],None)
 
-        time.sleep(1)
-
-    def test_status_incorrect(self):
-        ''' 错误的参数_状态值'''
-        payload = {"resId":self.s1,'status':9}
-        r2 = self.s.get(self.base_url, params=payload)
-        self.result = r2.json()
-        self.assertEqual(self.result['result'], False)
-        self.assertEqual(self.result['resultObject'],None)
-
-
-        time.sleep(1)
-
 
     def test_id_incorrect(self):
         ''' 错误的参数_不存在的id'''
-        payload = {"resId":99089,'status':0}
+        payload = {"resId":99089}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
@@ -61,16 +48,7 @@ class emp_updateResStatus_info(unittest.TestCase):
 
     def test_id_null_incorrect(self):
         ''' 错误的参数_空的id'''
-        payload = {"resId":"",'status':0}
-        r2 = self.s.get(self.base_url, params=payload)
-        self.result = r2.json()
-        self.assertEqual(self.result['result'], False)
-        self.assertEqual(self.result['resultObject'],None)
-
-
-    def test_status_null_incorrect(self):
-        ''' 错误的参数_空的status'''
-        payload = {"resId":self.s1,'status':''}
+        payload = {"resId":""}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
