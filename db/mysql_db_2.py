@@ -20,11 +20,11 @@ class DB():
         cf = cparser.ConfigParser()
 
         cf.read(file_path)
-        host = cf.get("mysqlconf_dev", "host")
-        port = cf.get("mysqlconf_dev", "port")
-        db = cf.get("mysqlconf_dev", "db_name")
-        user = cf.get("mysqlconf_dev", "user")
-        password = cf.get("mysqlconf_dev", "password")
+        host = cf.get("mysqlconf_sit", "host")
+        port = cf.get("mysqlconf_sit", "port")
+        db = cf.get("mysqlconf_sit", "db_name")
+        user = cf.get("mysqlconf_sit", "user")
+        password = cf.get("mysqlconf_sit", "password")
         try:
             # Connect to the database
             self.connection = pymysql.connect(host=host,
@@ -36,7 +36,6 @@ class DB():
  #                                             cursorclass=pymysql.cursors.DictCursor)
         except pymysql.err.OperationalError as e:
             print("Mysql Error %s: %s" % (e.args[0], e.args[1]))
-
 
     # clear table data
     def clear(self, table_name, table_data):
@@ -81,7 +80,7 @@ class DB():
             cursor.execute(sel_sql % (str(table_value),str(table_name),str(key),str(value)))
             s=cursor.fetchall()
 
-        return s[0][0]
+        return s
 
 
 if __name__ == '__main__':

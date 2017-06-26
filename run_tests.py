@@ -1,7 +1,7 @@
 import sys
 import time
 import unittest
-sys.path.append('./case')
+sys.path.append('./case_user_ua')
 sys.path.append('./db_fixture')
 
 import HTMLTestRunner
@@ -13,7 +13,7 @@ import HTMLTestRunner
 class report():
 
     def __init__(self):
-        self.test_dir = './case'
+        self.test_dir = './case_user_ua'
         self.discover = unittest.defaultTestLoader.discover(self.test_dir, pattern='*_test.py',top_level_dir=None)
 
 
@@ -26,6 +26,7 @@ class report():
         self.runner = HTMLTestRunner.HTMLTestRunner(stream=self.fp,
                                 title='Guest Manage System Interface Test Report',
                                 description='Implementation Example with: ')
+
 
         self.runner.run(self.discover)
         self.fp.close()

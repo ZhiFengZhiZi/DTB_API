@@ -1,6 +1,7 @@
 import sys,time
 sys.path.append('../db_fixture')
 from db.mysql_db import DB
+from db.mysql_db_2 import DB as DB2
 from common import urlbase
 
 
@@ -237,8 +238,65 @@ def ua_resauth_delete(res_id):
     db.close()
 
 
-if __name__ == '__main__':
+def dtb_clause_inser(count):
+    table_name = "prd_clause"
+    clause = {'NAME':'测试用大地下条款α','INSURER_ID':'2','INS_TYPE_ID':'1','DESCRIPTION':'1','CONTENT':'4',
+              'OPERATOR':'admin','MS':'0'}
+    clause2 = {'NAME': '测试用大地下条款β', 'INSURER_ID': '2', 'INS_TYPE_ID': '1', 'DESCRIPTION': '1', 'CONTENT': '4',
+              'OPERATOR': 'admin','MS':'0'}
 
-    ua_role_insert(count=2)
-    s=ua_role_search(value='ROLE_NAME', type='β')
+    if count==1 :
+        db = DB2()
+        db.insert(table_name=table_name, table_data=clause)
+        db.close()
+
+
+    elif count==2 :
+
+        db = DB2()
+        db.insert(table_name=table_name, table_data=clause)
+        db.insert(table_name=table_name, table_data=clause2)
+        db.close()
+
+def dtb_clause_search(value, type):
+    sclause = {'NAME': '测试用大地下条款α'}
+    sclause2 = {'NAME': '测试用大地下条款β'}
+    table_name = "prd_clause"
+
+    if type == 'α':
+            db = DB2()
+
+            s = db.select(table_value=value, table_name=table_name, table_data=sclause)
+            db.close()
+    if type == 'β':
+            db = DB2()
+
+            s = db.select(table_value=value, table_name=table_name, table_data=sclause2)
+            db.close()
+
+    return s
+
+
+def dtb_clause_delete(type):
+    sclause = {'NAME': '测试用大地下条款α'}
+    sclause2 = {'NAME': '测试用大地下条款β'}
+    table_name = "prd_clause"
+
+    if type == 'α':
+        db = DB2()
+        db.clear(table_name=table_name,table_data=sclause)
+        db.close()
+
+    elif type == 'β':
+        db = DB2()
+        db.clear(table_name=table_name, table_data=sclause2)
+        db.close()
+
+
+if __name__ == '__main__':
+    dtb_clause_inser(count=1)
+    s=dtb_clause_search(value='NAME',type='α')
+
+
+
     print(s)

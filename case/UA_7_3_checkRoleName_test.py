@@ -54,7 +54,7 @@ class emp_checkRoleName(unittest.TestCase):
         payload = {"roleId": self.s1, "roleName": "测试"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
-        self.assertEqual(self.result['result'], False)
+        self.assertEqual(self.result['result'], True)
         self.assertEqual(self.result['resultObject'], None)
         time.sleep(1)
 
