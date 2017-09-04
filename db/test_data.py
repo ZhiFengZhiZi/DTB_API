@@ -75,18 +75,26 @@ def ua_emp_search(value,type):
         db.close()
     return s
 
-def ua_emp_delete(type):
+def ua_emp_delete(type,id):
     table_name = "ua_employee"
+    table_name2 = "ua_online_employee"
+    table_name3 ="ua_logon_log"
     data = {'EMP_CNAME': '测试账号α'}
     data2 = {'EMP_CNAME': '测试账号β'}
+    data_id = {'EMP_ID': id}
+    data_id2 = {'EMP_ID': id}
 
     if type == 'α':
         db = DB()
+        db.clear(table_name=table_name2, table_data=data_id)
+        db.clear(table_name=table_name3, table_data=data_id2)
         db.clear(table_name=table_name,table_data=data)
         db.close()
 
     elif type == 'β':
         db = DB()
+        db.clear(table_name=table_name2, table_data=data_id)
+        db.clear(table_name=table_name3, table_data=data_id2)
         db.clear(table_name=table_name, table_data=data2)
         db.close()
 
@@ -258,6 +266,7 @@ def dtb_clause_inser(count):
         db.insert(table_name=table_name, table_data=clause2)
         db.close()
 
+
 def dtb_clause_search(value, type):
     sclause = {'NAME': '测试用大地下条款α'}
     sclause2 = {'NAME': '测试用大地下条款β'}
@@ -293,10 +302,82 @@ def dtb_clause_delete(type):
         db.close()
 
 
+def ua_org_insert(count):
+    table_name = "ua_org"
+    nowtime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+    if count == 1:
+            org = {'ID':'77798','PARENT_ID': '3', 'ORG_NAME': '系统研发中心测试部门','CREATE_TIME': nowtime,'STATUS':1
+                ,'UPDATE_TIME':nowtime,'OPERATOR':'aotutest' }
+            #
+            db = DB()
+            db.insert(table_name=table_name, table_data=org)
+            db.close()
+
+    if count == 2:
+            org = {'ID': '77798', 'PARENT_ID': '3', 'ORG_NAME': '系统研发中心测试部门', 'CREATE_TIME': nowtime, 'STATUS': 1
+            , 'UPDATE_TIME': nowtime, 'OPERATOR': 'aotutest'}
+            org2 = {'ID': '77799', 'PARENT_ID': '3', 'ORG_NAME': '系统研发中心测试部门', 'CREATE_TIME': nowtime, 'STATUS': 1
+            , 'UPDATE_TIME': nowtime, 'OPERATOR': 'aotutest'}
+            db = DB()
+            db.insert(table_name=table_name, table_data=org)
+            db.insert(table_name=table_name, table_data=org2)
+            db.close()
+
+    if count == 3:
+            org = {'ID': '77797', 'PARENT_ID': '3', 'ORG_NAME': '系统研发中心测试部门', 'CREATE_TIME': nowtime, 'STATUS': 1
+            , 'UPDATE_TIME': nowtime, 'OPERATOR': 'aotutest'}
+            org2 = {'ID': '77798', 'PARENT_ID': '3', 'ORG_NAME': '系统研发中心测试部门', 'CREATE_TIME': nowtime, 'STATUS': 1
+            , 'UPDATE_TIME': nowtime, 'OPERATOR': 'aotutest'}
+            org3 = {'ID': '77799', 'PARENT_ID': '3', 'ORG_NAME': '系统研发中心测试部门', 'CREATE_TIME': nowtime, 'STATUS': 1
+                , 'UPDATE_TIME': nowtime, 'OPERATOR': 'aotutest'}
+            db = DB()
+            db.insert(table_name=table_name, table_data=org)
+            db.insert(table_name=table_name, table_data=org2)
+            db.insert(table_name=table_name, table_data=org3)
+            db.close()
+
+
+def ua_org_search(value, type):
+        semp = {'RES_NAME': '测试管理α'}
+        semp2 = {'RES_NAME': '测试管理β'}
+        semp3 = {'id': value}
+        table_name = "ua_resource"
+
+        if type == 'α':
+            db = DB()
+
+            s = db.select(table_value=value, table_name=table_name, table_data=semp)
+            db.close()
+        if type == 'β':
+            db = DB()
+
+            s = db.select(table_value=value, table_name=table_name, table_data=semp2)
+            db.close()
+
+        if type =='id':
+
+            db = DB()
+
+            s = db.select(table_value='RES_NAME', table_name=table_name, table_data=semp3)
+            db.close()
+
+        return s
+
+
+def ua_org_delete(id):
+    sorg = {'id': id}
+    table_name = "ua_org"
+
+
+    db = DB()
+    db.clear(table_name=table_name,table_data=sorg)
+    db.close()
+
+
+
 if __name__ == '__main__':
     dtb_clause_inser(count=1)
     s=dtb_clause_search(value='NAME',type='α')
-
 
 
     print(s)

@@ -16,20 +16,20 @@ def UaUser():
 
 
 def sit():
-    url = 'http://192.168.31.188:8801'
+    url = 'http://192.168.31.160:8004'
     return url
 
 def sit_UaUser():
-    url = 'http://192.168.31.188:8802'
+    url = 'http://192.168.31.160:8006'
     return url
 
 def pre():
 
-    url='http://192.168.31.190:8801'
+    url='http://192.168.31.160:8005'
     return url
 
 def pre_UaUser():
-    url = 'http://192.168.31.190:8802'
+    url = 'http://192.168.31.160:8007'
     return url
 
 

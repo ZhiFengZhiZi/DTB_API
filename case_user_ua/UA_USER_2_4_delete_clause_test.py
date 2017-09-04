@@ -72,7 +72,7 @@ class delete_Clause(unittest.TestCase):
     def tearDown(self):
 
         test_data.ua_roleemp_delete(EMP_ID=self.s1)
-        test_data.ua_emp_delete(type='β')
+        test_data.ua_emp_delete(type='β', id=self.s1)
         test_data.dtb_clause_delete(type='α')
 
         print(self.result)

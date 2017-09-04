@@ -56,7 +56,6 @@ class get_ClauseList(unittest.TestCase):
         self.assertIsNotNone(self.result['resultObject'])
 
 
-
     def test_name_success(self):
         '''name参数'''
 
@@ -83,7 +82,7 @@ class get_ClauseList(unittest.TestCase):
     def tearDown(self):
 
         test_data.ua_roleemp_delete(EMP_ID=self.s1)
-        test_data.ua_emp_delete(type='β')
+        test_data.ua_emp_delete(type='β',id=self.s1)
         test_data.dtb_clause_delete(type='α')
 
         print(self.result)

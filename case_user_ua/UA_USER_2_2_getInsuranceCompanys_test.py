@@ -73,7 +73,7 @@ class get_InsuranceCompanys(unittest.TestCase):
 
     def tearDown(self):
         test_data.ua_roleemp_delete(EMP_ID=self.s1)
-        test_data.ua_emp_delete(type='β')
+        test_data.ua_emp_delete(type='β', id=self.s1)
 
         print(self.result)
 

@@ -16,15 +16,17 @@ class DB():
         base_dir = str(os.path.dirname(os.path.dirname(__file__)))
         base_dir = base_dir.replace('\\', '/')
         file_path = base_dir + "/db_config.ini"
+        self.dev = 'mysqlconf_ua_dev'
+        self.sit = 'mysqlconf_ua_sit'
 
         cf = cparser.ConfigParser()
 
         cf.read(file_path)
-        host = cf.get("mysqlconf_dev", "host")
-        port = cf.get("mysqlconf_dev", "port")
-        db = cf.get("mysqlconf_dev", "db_name")
-        user = cf.get("mysqlconf_dev", "user")
-        password = cf.get("mysqlconf_dev", "password")
+        host = cf.get(self.sit, "host")
+        port = cf.get(self.sit, "port")
+        db = cf.get(self.sit, "db_name")
+        user = cf.get(self.sit, "user")
+        password = cf.get(self.sit, "password")
         try:
             # Connect to the database
             self.connection = pymysql.connect(host=host,
@@ -45,10 +47,14 @@ class DB():
             table_data[key] = "'"+str(table_data[key])+"'"
         key   = ','.join(table_data.keys())
         value = ','.join(table_data.values())
-        clear_sql = "DELETE from %s where %s = %s; "
+        clear_sql = "DELETE from %s where %s = %s;"
+        s = clear_sql % (str(table_name), str(key), value)
+        #print(s)
         with self.connection.cursor() as cursor:
 #            cursor.execute("SET FOREIGN_KEY_CHECKS=0;")
             cursor.execute(clear_sql%(str(table_name),str(key),str(value)))
+
+
         self.connection.commit()
 
     # insert sql statement

@@ -17,6 +17,7 @@ class report():
         self.discover = unittest.defaultTestLoader.discover(self.test_dir, pattern='*_test.py',top_level_dir=None)
 
 
+
     def run(self):
         self.now = time.strftime("%Y-%m-%d %H_%M_%S")
         self.filename = './report/' + self.now + '_result.html'
@@ -26,7 +27,6 @@ class report():
         self.runner = HTMLTestRunner.HTMLTestRunner(stream=self.fp,
                                 title='Guest Manage System Interface Test Report',
                                 description='Implementation Example with: ')
-
 
         self.runner.run(self.discover)
         self.fp.close()
