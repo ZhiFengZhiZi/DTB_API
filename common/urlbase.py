@@ -23,6 +23,10 @@ def sit_UaUser():
     url = 'http://192.168.31.160:8006'
     return url
 
+def sit_YbUser():
+    url = 'http://eims.sit.datoubao.com'
+    return url
+
 def pre():
 
     url='http://192.168.31.160:8005'
