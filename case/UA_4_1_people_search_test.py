@@ -11,7 +11,7 @@ class emp_people_search(unittest.TestCase):
     ''' 人员查询接口 '''
 
     def setUp(self):
-
+        self.emp = urlbase.list()[0]
         test_data.ua_emp_insert(count=1)
 
         self.empid=test_data.ua_emp_search(value="id",type='β')
@@ -19,8 +19,8 @@ class emp_people_search(unittest.TestCase):
         test_data.ua_roleemp_insert(empid=self.empid,roleid=1)
 
 
-        self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/emp/getEmpInfoList"
+        self.base_url_login = self.emp + "/login"
+        self.base_url = self.emp + "/emp/getEmpInfoList"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         ##以x-www-form-urlencoded
         payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
@@ -139,7 +139,7 @@ class emp_people_search(unittest.TestCase):
 
     def tearDown(self):
         test_data.ua_roleemp_delete(EMP_ID=self.empid)
-        test_data.ua_emp_delete(type='β')
+        test_data.ua_emp_delete(type='β',id=self.empid)
 
         print(self.result)
 

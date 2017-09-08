@@ -1,5 +1,27 @@
 
 
+def list():
+
+    url=prelist()
+
+
+    return url
+
+
+
+def sitlist():
+
+    url=['http://192.168.31.160:8004','http://192.168.31.160:8006']
+
+    return url
+
+
+def prelist():
+    url = ['http://192.168.31.160:8005', 'http://192.168.31.160:8007']
+
+    return url
+
+
 
 def sit_emp():
 
@@ -7,11 +29,25 @@ def sit_emp():
 
     return url
 
-def UaUser():
+def sit_UaUser():
 
     url = sit_UaUser()
 
     return url
+
+
+def pre_emp():
+
+    url = pre()
+
+    return url
+
+def preUaUser():
+
+    url = pre_UaUser()
+
+    return url
+
 
 
 
@@ -24,11 +60,10 @@ def sit_UaUser():
     return url
 
 def sit_YbUser():
-    url = 'http://eims.sit.datoubao.com'
+    url = 'http://eims.sit.datoubao.com/eims'
     return url
 
 def pre():
-
     url='http://192.168.31.160:8005'
     return url
 
@@ -51,4 +86,4 @@ def prd():
 
 
 if __name__ == '__main__':
-    sit_emp()
+    list()

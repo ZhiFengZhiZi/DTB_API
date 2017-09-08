@@ -16,17 +16,20 @@ class DB():
         base_dir = str(os.path.dirname(os.path.dirname(__file__)))
         base_dir = base_dir.replace('\\', '/')
         file_path = base_dir + "/db_config.ini"
+
         self.dev = 'mysqlconf_ua_dev'
         self.sit = 'mysqlconf_ua_sit'
+        self.pre = 'mysqlconf_ua_pre'
+        self.db = self.pre
 
         cf = cparser.ConfigParser()
 
         cf.read(file_path)
-        host = cf.get(self.sit, "host")
-        port = cf.get(self.sit, "port")
-        db = cf.get(self.sit, "db_name")
-        user = cf.get(self.sit, "user")
-        password = cf.get(self.sit, "password")
+        host = cf.get(self.db, "host")
+        port = cf.get(self.db, "port")
+        db = cf.get(self.db, "db_name")
+        user = cf.get(self.db, "user")
+        password = cf.get(self.db, "password")
         try:
             # Connect to the database
             self.connection = pymysql.connect(host=host,

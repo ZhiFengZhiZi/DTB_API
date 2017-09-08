@@ -12,15 +12,16 @@ class emp_people_freeze(unittest.TestCase):
     ''' 冻结恢复删除登录接口 '''
 
     def setUp(self):
-        self.base_url = urlbase.sit_emp() + "/emp/updateEmpStatus"
+        self.emp = urlbase.list()[0]
+        self.base_url = self.emp + "/emp/updateEmpStatus"
         test_data.ua_emp_insert(count=9)
-        self.s1 = test_data.ua_emp_search(value='id', type='α')
-        self.s2 = test_data.ua_emp_search(value='id', type='β')
-        test_data.ua_roleemp_insert(empid=self.s1, roleid=1)
-        test_data.ua_roleemp_insert(empid=self.s2, roleid=1)
+        self.empid1 = test_data.ua_emp_search(value='id', type='α')
+        self.empid2 = test_data.ua_emp_search(value='id', type='β')
+        test_data.ua_roleemp_insert(empid=self.empid1, roleid=1)
+        test_data.ua_roleemp_insert(empid=self.empid2, roleid=1)
 
-        self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/emp/updateEmpStatus"
+        self.base_url_login = self.emp + "/login"
+        self.base_url = self.emp + "/emp/updateEmpStatus"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         ##以x-www-form-urlencoded
         payload =  {'username': 'ZHANGHAO1', 'password': '234567', 'verifyCode': '0000'}
@@ -30,7 +31,7 @@ class emp_people_freeze(unittest.TestCase):
     def test_people_common(self):
         ''' 正确的参数_正常状态'''
 
-        payload = {"id":self.s1,"empStatus": 1}
+        payload = {"id":self.empid1,"empStatus": 1}
         r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
@@ -40,7 +41,7 @@ class emp_people_freeze(unittest.TestCase):
     def test_people_dele(self):
         ''' 正确的参数_删除状态'''
 
-        payload = {"id":self.s1,"empStatus":2}
+        payload = {"id":self.empid1,"empStatus":2}
         r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
@@ -50,7 +51,7 @@ class emp_people_freeze(unittest.TestCase):
     def test_people_freeze(self):
         ''' 正确的参数_冻结状态'''
 
-        payload = {"id":self.s2,"empStatus": 1}
+        payload = {"id":self.empid2,"empStatus": 1}
         r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
@@ -73,7 +74,7 @@ class emp_people_freeze(unittest.TestCase):
     def test_status_wrong_nostatus(self):
         ''' 错误的参数_不存在的status'''
 
-        payload = {"id":self.s1,"empStatus":5}
+        payload = {"id":self.empid1,"empStatus":5}
         r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
@@ -96,10 +97,10 @@ class emp_people_freeze(unittest.TestCase):
 
 
     def tearDown(self):
-        test_data.ua_roleemp_delete(EMP_ID=self.s1)
-        test_data.ua_roleemp_delete(EMP_ID=self.s2)
-        test_data.ua_emp_delete(type='β')
-        test_data.ua_emp_delete(type='α')
+        test_data.ua_roleemp_delete(EMP_ID=self.empid1)
+        test_data.ua_roleemp_delete(EMP_ID=self.empid2)
+        test_data.ua_emp_delete(type='β',id=self.empid1)
+        test_data.ua_emp_delete(type='α',id=self.empid2)
         print(self.result)
 
 

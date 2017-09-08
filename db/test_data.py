@@ -79,13 +79,16 @@ def ua_emp_delete(type,id):
     table_name = "ua_employee"
     table_name2 = "ua_online_employee"
     table_name3 ="ua_logon_log"
+    table_name4 = 'ua_operation_log'
     data = {'EMP_CNAME': '测试账号α'}
     data2 = {'EMP_CNAME': '测试账号β'}
     data_id = {'EMP_ID': id}
     data_id2 = {'EMP_ID': id}
+    data_id3 = {'EMP_ID': id}
 
     if type == 'α':
         db = DB()
+        db.clear(table_name=table_name4, table_data=data_id3)
         db.clear(table_name=table_name2, table_data=data_id)
         db.clear(table_name=table_name3, table_data=data_id2)
         db.clear(table_name=table_name,table_data=data)
@@ -93,6 +96,7 @@ def ua_emp_delete(type,id):
 
     elif type == 'β':
         db = DB()
+        db.clear(table_name=table_name4, table_data=data_id3)
         db.clear(table_name=table_name2, table_data=data_id)
         db.clear(table_name=table_name3, table_data=data_id2)
         db.clear(table_name=table_name, table_data=data2)

@@ -13,11 +13,13 @@ class get_InsuranceTypes(unittest.TestCase):
 
     def setUp(self):
 
+        self.emp = urlbase.list()[0]
+        self.uauser = urlbase.list()[1]
 
-        self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.UaUser()+"/clause/getInsuracneTypes"
-        self.base_url_createTicket = urlbase.sit_emp() + '/ticket/createTicket'
-        self.base_url_verify = urlbase.sit_UaUser()+'/verifyAuthenticationTicket'
+        self.base_url_login = self.emp + "/login"
+        self.base_url = self.uauser+"/clause/getClauseList"
+        self.base_url_createTicket = self.emp + '/ticket/createTicket'
+        self.base_url_verify = self.uauser+'/verifyAuthenticationTicket'
 
         self.s = requests.Session()
 

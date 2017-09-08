@@ -11,7 +11,8 @@ class emp_login(unittest.TestCase):
     ''' 验证码接口 '''
 
     def setUp(self):
-        self.base_url = urlbase.sit_emp()+"/verifyCode"
+        self.emp = urlbase.list()[0]
+        self.base_url = self.emp+"/verifyCode"
 
 
 

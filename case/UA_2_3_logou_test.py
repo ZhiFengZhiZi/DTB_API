@@ -11,8 +11,9 @@ class emp_login(unittest.TestCase):
     ''' 后台登出接口 '''
 
     def setUp(self):
-        self.base_url = urlbase.sit_emp()+"/logout"
-        self.base_url_login = urlbase.sit_emp() + "/login"
+        self.emp = urlbase.list()[0]
+        self.base_url = self.emp +"/logout"
+        self.base_url_login = self.emp + "/login"
 
 
 

@@ -12,10 +12,11 @@ import HTMLTestRunner
 
 class report():
 
-    def __init__(self):
-        self.test_dir = './case_user_ua'
-        self.discover = unittest.defaultTestLoader.discover(self.test_dir, pattern='*_test.py',top_level_dir=None)
 
+    def __init__(self):
+        self.test_dir0 = './case_user_ua'
+        self.test_dir = './'
+        self.discover = unittest.defaultTestLoader.discover(self.test_dir, pattern='*_test.py',top_level_dir=None)
 
 
     def run(self):
@@ -30,6 +31,7 @@ class report():
 
         self.runner.run(self.discover)
         self.fp.close()
+
 
 if __name__ == "__main__":
 #    test_data.init_data() # 初始化接口测试数据

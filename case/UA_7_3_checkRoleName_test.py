@@ -12,18 +12,17 @@ class emp_checkRoleName(unittest.TestCase):
     ''' 校验角色名称接口 '''
 
     def setUp(self):
-
-
+        self.emp = urlbase.list()[0]
         test_data.ua_emp_insert(count=1)
         test_data.ua_role_insert(count=1)
-        self.emp = test_data.ua_emp_search(value='id',type='β')
-        self.s1 = test_data.ua_role_search(value='id',type='α')
-        test_data.ua_roleemp_insert(empid=self.emp, roleid=1)
+        self.empid = test_data.ua_emp_search(value='id',type='β')
+        self.role = test_data.ua_role_search(value='id',type='α')
+        test_data.ua_roleemp_insert(empid=self.empid, roleid=1)
         test_data.ua_role_insert(1)
 
 
-        self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/role/checkRoleName"
+        self.base_url_login = self.emp + "/login"
+        self.base_url = self.emp + "/role/checkRoleName"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
         self.s = requests.Session()
@@ -32,7 +31,7 @@ class emp_checkRoleName(unittest.TestCase):
 
     def test_duplicate_name(self):
         ''' 重复的角色名'''
-        payload = {"roleId":self.s1,"roleName":"测试角色α"}
+        payload = {"roleId":self.role,"roleName":"测试角色α"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
  #       self.assertEqual(self.result['message'], '操作成功!')
@@ -42,7 +41,7 @@ class emp_checkRoleName(unittest.TestCase):
 
     def test_Mismatching_name(self):
         '''不存在的角色名 '''
-        payload = {"roleId": self.s1, "roleName": "测试角色β"}
+        payload = {"roleId": self.role, "roleName": "测试角色β"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
@@ -51,7 +50,7 @@ class emp_checkRoleName(unittest.TestCase):
 
     def test_part_matching_name(self):
         '''部分匹配的角色名 '''
-        payload = {"roleId": self.s1, "roleName": "测试"}
+        payload = {"roleId": self.role, "roleName": "测试"}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
@@ -60,7 +59,7 @@ class emp_checkRoleName(unittest.TestCase):
 
     def test_null_name(self):
         '''空的角色名 '''
-        payload = {"roleId": self.s1, "roleName": ""}
+        payload = {"roleId": self.role, "roleName": ""}
         r2 = self.s.get(self.base_url, params=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
@@ -98,8 +97,8 @@ class emp_checkRoleName(unittest.TestCase):
 
     def tearDown(self):
 
-        test_data.ua_roleemp_delete(EMP_ID=self.emp)
-        test_data.ua_emp_delete(type='β')
+        test_data.ua_roleemp_delete(EMP_ID=self.empid)
+        test_data.ua_emp_delete(type='β',id=self.empid)
         test_data.ua_role_delete('α')
 
 

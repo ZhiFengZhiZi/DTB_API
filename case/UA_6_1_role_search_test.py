@@ -15,15 +15,15 @@ class emp_login(unittest.TestCase):
 
 
         test_data.ua_emp_insert(count=2)
-
-        self.s1 = test_data.ua_emp_search(value='id',type='β')
-        test_data.ua_roleemp_insert(empid=self.s1, roleid=1)
+        self.emp = urlbase.list()[0]
+        self.empid1 = test_data.ua_emp_search(value='id',type='β')
+        test_data.ua_roleemp_insert(empid=self.empid1, roleid=1)
         test_data.ua_role_insert(1)
 
 
 
-        self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.sit_emp() + "/role/getRoleInfoList"
+        self.base_url_login = self.emp + "/login"
+        self.base_url = self.emp + "/role/getRoleInfoList"
         head = {'Content-Type': 'application/x-www-form-urlencoded'}
         ##以x-www-form-urlencoded
         payload = {'username': 'ZHANGHAO2', 'password': '234567', 'verifyCode': '0000'}
@@ -111,10 +111,10 @@ class emp_login(unittest.TestCase):
 
 
     def tearDown(self):
-
-        test_data.ua_roleemp_delete(EMP_ID=self.s1)
-        test_data.ua_emp_delete(type='β')
-        test_data.ua_emp_delete(type='α')
+        self.empid2 = test_data.ua_emp_search(value='id', type='α')
+        test_data.ua_roleemp_delete(EMP_ID=self.empid1)
+        test_data.ua_emp_delete(type='β',id=self.empid1)
+        test_data.ua_emp_delete(type='α',id=self.empid2)
         test_data.ua_role_delete('α')
 
 

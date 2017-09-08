@@ -12,8 +12,9 @@ class get_getEmpResource(unittest.TestCase):
     ''' 欢迎页获取用户权限接口 '''
 
     def setUp(self):
-        self.base_url = urlbase.sit_emp() + "/emp/updatePwd"
-        self.base_url_login = urlbase.sit_emp() + "/login"
+        self.emp = urlbase.list()[0]
+        self.base_url = self.emp + "/emp/updatePwd"
+        self.base_url_login = self.emp + "/login"
 
         test_data.ua_emp_insert(count=1)
 
@@ -98,7 +99,8 @@ class get_getEmpResource(unittest.TestCase):
 
 
     def tearDown(self):
-        test_data.ua_emp_delete(type='β')
+        self.empid = test_data.ua_emp_search(value="id", type='β')
+        test_data.ua_emp_delete(type='β',id=self.empid)
         print(self.result)
 
 

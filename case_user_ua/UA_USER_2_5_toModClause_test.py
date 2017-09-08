@@ -14,10 +14,13 @@ class toModClause(unittest.TestCase):
 
     def setUp(self):
 
-        self.base_url_login = urlbase.sit_emp() + "/login"
-        self.base_url = urlbase.UaUser()+"/clause/toModClause"
-        self.base_url_createTicket = urlbase.sit_emp() + '/ticket/createTicket'
-        self.base_url_verify = urlbase.sit_UaUser()+'/verifyAuthenticationTicket'
+        self.emp = urlbase.list()[0]
+        self.uauser = urlbase.list()[1]
+
+        self.base_url_login = self.emp + "/login"
+        self.base_url = self.uauser+"/clause/getClauseList"
+        self.base_url_createTicket = self.emp + '/ticket/createTicket'
+        self.base_url_verify = self.uauser+'/verifyAuthenticationTicket'
 
         test_data.ua_emp_insert(count=1)
 
