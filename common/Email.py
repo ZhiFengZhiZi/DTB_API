@@ -2,6 +2,7 @@
 
 # 导入smtplib和MIMEText
 import smtplib
+import sys
 import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -10,22 +11,25 @@ from email.utils import formataddr
 
 class Email_class(object):
 
-    def __init__(self,subject,touser):
+    def __init__(self,subject,touser,reportname):
 
         self.s = subject
         self.u = touser
         self.server = smtplib.SMTP('smtp.mxhichina.com', 25)
+        #self.filename = str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))+'\\report'+reportname
+        self.filename = reportname
+
 
     def send_email(self):
-        user = 'wangsiyuan@datoubao365.com'
+        user = 'tester@datoubao365.com'
         pwd = 'a83423745.'
         #to = ['******@139.com', '******@qq.com']
         msg = MIMEMultipart()
         msg['Subject'] = self.s
-        msg['From'] = formataddr(["知风服务器系统监控",user])
+        msg['From'] = formataddr(["自动化测试报告",user])
         content1 = MIMEText('这里是正文！', 'plain', 'utf-8')
         msg.attach(content1)
-        attfile = 'D:\\DTB_API\\report\\2017-10-31 15_57_53_result.html'
+        attfile = self.filename
         basename = os.path.basename(attfile)
         fp = open(attfile, 'rb')
         att = MIMEText(fp.read(), 'base64', 'utf-8')

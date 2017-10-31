@@ -6,8 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="411f5e08-373d-4949-98af-b72f6ea95d66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/Email.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code_test.py" afterPath="$PROJECT_DIR$/code_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/Email.py" afterPath="$PROJECT_DIR$/common/Email.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_tests.py" afterPath="$PROJECT_DIR$/run_tests.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,9 +44,9 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_create.coverage" NAME="Unittests in emp_people_create Coverage Results" MODIFIED="1509435718472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_eims_login__2_.coverage" NAME="Unittests in eims_login (2) Coverage Results" MODIFIED="1495013581510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_res_test_params_create_correct.coverage" NAME="Unittest emp_createEdit_res.test_params_create_correct Coverage Results" MODIFIED="1496996507767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$code_test.coverage" NAME="code_test Coverage Results" MODIFIED="1497341355444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_checkRoleName_test_Nonexistent_id.coverage" NAME="Unittest emp_checkRoleName.test_Nonexistent_id Coverage Results" MODIFIED="1509436169157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__4_.coverage" NAME="Unittests in emp_getResInfo_info (4) Coverage Results" MODIFIED="1509436444864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$code_test.coverage" NAME="code_test Coverage Results" MODIFIED="1509440965232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_createEdit_res__1_.coverage" NAME="Unittests in emp_createEdit_res (1) Coverage Results" MODIFIED="1495783591699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_toModClause_test_name_success.coverage" NAME="Unittest toModClause.test_name_success Coverage Results" MODIFIED="1498187070798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_userinfo.coverage" NAME="Unittests in get_userinfo Coverage Results" MODIFIED="1509435550300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -94,7 +96,7 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_search__4_.coverage" NAME="Unittests in emp_people_search (4) Coverage Results" MODIFIED="1496921334708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName__2_.coverage" NAME="Unittests in emp_checkRoleName (2) Coverage Results" MODIFIED="1496991112877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName.coverage" NAME="Unittests in emp_checkRoleName Coverage Results" MODIFIED="1509436128461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1509436673238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DTB_API$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1509441529502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_createEdit_res__3_.coverage" NAME="Unittests in emp_createEdit_res (3) Coverage Results" MODIFIED="1496995181397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_get_userinfo_empcname.coverage" NAME="Unittest emp_login.test_get_userinfo_empcname Coverage Results" MODIFIED="1495095820747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_createparam_correct.coverage" NAME="Unittest emp_login.test_createparam_correct Coverage Results" MODIFIED="1495693202480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -280,8 +282,8 @@
       <file leaf-file-name="run_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="390">
+              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -290,8 +292,30 @@
       <file leaf-file-name="Email.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/Email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#48#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultFolder.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/DTB_Automation/CommonLibrary/ResultFolder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -307,22 +331,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UA_9_1_getRoleAuthInfo_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UA_11_3_saveOrg_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="1430">
               <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-              <folding />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -390,9 +406,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/case/UA_7_5_addRoleEmp_test.py" />
         <option value="$PROJECT_DIR$/report/2017-06-12 19_44_18_result.html" />
-        <option value="$PROJECT_DIR$/code_test.py" />
         <option value="$PROJECT_DIR$/case/UA_10_1_addTicket_test.py" />
         <option value="$PROJECT_DIR$/case_user_ua/UA_USER_2_1_get_clauselist_test.py" />
         <option value="$PROJECT_DIR$/case_user_ua/UA_USER_2_2_get_clauselist_test.py" />
@@ -440,7 +454,9 @@
         <option value="$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py" />
         <option value="$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py" />
         <option value="$PROJECT_DIR$/case/UA_11_4_delOrg_test.py" />
+        <option value="$PROJECT_DIR$/code_test.py" />
         <option value="$PROJECT_DIR$/run_tests.py" />
+        <option value="$PROJECT_DIR$/common/Email.py" />
       </list>
     </option>
   </component>
@@ -451,8 +467,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="90" />
-    <option name="width" value="1932" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -534,7 +551,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="D:/PyDomain/Demo" />
+    <property name="last_opened_file_path" value="D:/DTB_Automation/CommonLibrary/ResultFolder.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
   </component>
@@ -553,29 +570,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.run_tests">
-    <configuration default="false" name="Unittests in emp_getResInfo_info (3)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DTBrequests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py" />
-      <option name="CLASS_NAME" value="emp_getResInfo_info" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in emp_getResInfo_info (4)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -659,6 +653,24 @@
       <module name="DTBrequests" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="code_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DTBrequests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -878,19 +890,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (4)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest emp_getResInfo_info.test_duplicate_id" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.run_tests" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (4)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest emp_getResInfo_info.test_duplicate_id" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.run_tests" />
+      <item index="4" class="java.lang.String" itemvalue="Python.code_test" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.run_tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (4)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest emp_getResInfo_info.test_duplicate_id" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.code_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest emp_getResInfo_info.test_duplicate_id" />
       </list>
     </recent_temporary>
   </component>
@@ -989,7 +1001,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509437073463</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1031 add email&#10;">
+      <created>1509438626244</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1509438626244</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1025,10 +1044,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="90" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19123931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1082,7 +1101,8 @@
     <MESSAGE value="0904&#10;" />
     <MESSAGE value="0908&#10;适配Linux&#10;" />
     <MESSAGE value="1031 EDIT&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1031 EDIT&#10;" />
+    <MESSAGE value="1031 add email&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1031 add email&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1091,13 +1111,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case_user_ua/UA_USER_2_5_toModClause_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case_user_ua/UA_USER_2_1_search_clause_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1431,37 +1444,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case/UA_11_4_delOrg_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-155">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-10-31 15_55_05_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1475,19 +1462,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/DTB_Automation/CommonLibrary/ResultFolder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-10-31 15_55_05_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="390">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/Email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#48#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,6 +5,7 @@ sys.path.append('./case_user_ua')
 sys.path.append('./db_fixture')
 
 import HTMLTestRunner
+from common.Email import Email_class
 
 
 # 指定测试用例为当前文件夹下的 interface 目录
@@ -18,6 +19,8 @@ class report():
         self.test_dir = './'
         self.discover = unittest.defaultTestLoader.discover(self.test_dir0, pattern='*_test.py',top_level_dir=None)
 
+
+
     def run(self):
         self.now = time.strftime("%Y-%m-%d %H_%M_%S")
         self.filename = './report/' + self.now + '_result.html'
@@ -30,8 +33,10 @@ class report():
         self.runner.run(self.discover)
         self.fp.close()
 
+        self.email = Email_class(subject='测试报告', touser=['wangsiyuan@datoubao365.com', 'liqiang@datoubao365.com'],
+                                 reportname=self.filename)
 
-
+        self.email.send_email()
 
 if __name__ == "__main__":
 #    test_data.init_data() # 初始化接口测试数据
