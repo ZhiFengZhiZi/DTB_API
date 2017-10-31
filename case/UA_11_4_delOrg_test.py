@@ -12,7 +12,7 @@ class emp_getResInfo_info(unittest.TestCase):
     '''删除组织架构接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         test_data.ua_role_insert(1)
         test_data.ua_emp_insert(1)
         self.empid=test_data.ua_emp_search(value='id',type='β')

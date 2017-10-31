@@ -12,7 +12,7 @@ class get_userinfo(unittest.TestCase):
     ''' 欢迎页获取用户信息接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         self.base_url = self.emp+"/emp/getEmpInfo"
         self.base_url_login = self.emp + "/login"
 

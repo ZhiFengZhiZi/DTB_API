@@ -60,6 +60,8 @@ def ua_emp_insert(count):
 def ua_emp_search(value,type):
     semp = {'EMP_CNAME': '测试账号α'}
     semp2 = {'EMP_CNAME': '测试账号β'}
+    semp3 = {'EMP_NAME': 'ZHANGHAO1'}
+    semp3 = {'EMP_NAME': 'ZHANGHAO2'}
     table_name = "ua_employee"
 
 
@@ -73,6 +75,18 @@ def ua_emp_search(value,type):
 
         s = db.select(table_value=value, table_name=table_name, table_data=semp2)
         db.close()
+
+    elif type == 'ZHANGHAO1':
+        db =DB()
+        s = db.select(table_value=value,table_name=table_name,table_data=semp3)
+        db.close()
+
+    elif type == 'ZHANGHAO2':
+        db =DB()
+        s = db.select(table_value=value,table_name=table_name,table_data=semp4)
+        db.close()
+
+
     return s
 
 def ua_emp_delete(type,id):
@@ -82,9 +96,12 @@ def ua_emp_delete(type,id):
     table_name4 = 'ua_operation_log'
     data = {'EMP_CNAME': '测试账号α'}
     data2 = {'EMP_CNAME': '测试账号β'}
+    data3 = {'EMP_NAME': 'ZHANGHAO1'}
+    data4 = {'EMP_NAME': 'ZHANGHAO2'}
     data_id = {'EMP_ID': id}
     data_id2 = {'EMP_ID': id}
     data_id3 = {'EMP_ID': id}
+    data_id4 = {'EMP_ID': id}
 
     if type == 'α':
         db = DB()
@@ -101,6 +118,23 @@ def ua_emp_delete(type,id):
         db.clear(table_name=table_name3, table_data=data_id2)
         db.clear(table_name=table_name, table_data=data2)
         db.close()
+
+    elif type == 'ZHANGHAO1':
+        db=DB()
+        db.clear(table_name=table_name4, table_data=data_id3)
+        db.clear(table_name=table_name2, table_data=data_id)
+        db.clear(table_name=table_name3, table_data=data_id2)
+        db.clear(table_name=table_name, table_data=data2)
+        db.close()
+
+    elif type == 'ZHANGHAO2':
+        db=DB()
+        db.clear(table_name=table_name4, table_data=data_id3)
+        db.clear(table_name=table_name2, table_data=data_id)
+        db.clear(table_name=table_name3, table_data=data_id2)
+        db.clear(table_name=table_name, table_data=data2)
+        db.close()
+
 
 def ua_role_insert(count):
     table_name = "ua_role"

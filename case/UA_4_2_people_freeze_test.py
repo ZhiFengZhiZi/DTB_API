@@ -12,7 +12,7 @@ class emp_people_freeze(unittest.TestCase):
     ''' 冻结恢复删除登录接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         self.base_url = self.emp + "/emp/updateEmpStatus"
         test_data.ua_emp_insert(count=9)
         self.empid1 = test_data.ua_emp_search(value='id', type='α')

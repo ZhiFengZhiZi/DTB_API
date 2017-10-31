@@ -10,8 +10,9 @@ sys.path.insert(0, parentdir)
 class emp_login(unittest.TestCase):
     ''' 验证码接口 '''
 
+
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         self.base_url = self.emp+"/verifyCode"
 
 

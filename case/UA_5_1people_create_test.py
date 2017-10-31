@@ -14,7 +14,7 @@ class emp_people_create(unittest.TestCase):
 
     def setUp(self):
         test_data.ua_emp_insert(count=1)
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
 
         self.empid1 = test_data.ua_emp_search(value='id',type='β')
         test_data.ua_roleemp_insert(empid=self.empid1, roleid=1)

@@ -12,7 +12,7 @@ class emp_createEdit_res(unittest.TestCase):
     ''' 创建编辑资源接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         test_data.ua_res_insert(1)
         test_data.ua_emp_insert(1)
         self.empid=test_data.ua_emp_search(value='id',type='β')

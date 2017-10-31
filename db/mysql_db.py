@@ -20,7 +20,7 @@ class DB():
         self.dev = 'mysqlconf_ua_dev'
         self.sit = 'mysqlconf_ua_sit'
         self.pre = 'mysqlconf_ua_pre'
-        self.db = self.pre
+        self.db = self.sit
 
         cf = cparser.ConfigParser()
 

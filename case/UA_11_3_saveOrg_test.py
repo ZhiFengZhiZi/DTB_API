@@ -12,7 +12,7 @@ class emp_getResInfo_info(unittest.TestCase):
     ''' 添加编辑组织架构接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         test_data.ua_role_insert(1)
         test_data.ua_emp_insert(1)
         self.empid=test_data.ua_emp_search(value='id',type='β')
@@ -70,8 +70,8 @@ class emp_getResInfo_info(unittest.TestCase):
     def test_duplicate_id(self):
         ''' 重复的id'''
         payload = {"id":3,'parentId':3,'orgName':"系统研发测试组织",'orgRemark':'描述'}#id 3 是系统研发中心
-        r2 = self.s.get(self.base_url,params = payload)
-        print(r2.status_code)
+        r2 = self.s.post(self.base_url,data=payload)
+
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
         #self.assertEqual(self.result['resultObject']['id'],3)

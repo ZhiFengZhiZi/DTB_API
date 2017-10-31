@@ -15,12 +15,17 @@ class emp_login(unittest.TestCase):
 
         nowtime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
         ##获取当前时间
-        test_data.ua_emp_insert(2)
+
+        test_data.ua_emp_insert(count=2)
+
+
+
+
         self.empid=test_data.ua_emp_search(value="id",type='β')
         self.empid2 = test_data.ua_emp_search(value="id",type='α')
-        test_data.ua_roleemp_insert(empid=self.empid,roleid=1)
-        self.base_url = urlbase.sit_emp() + "/login"
-        self.base_url_login = urlbase.sit_emp() + "/login"
+        test_data.ua_roleemp_insert(empid=self.empid, roleid=1)
+        self.base_url = urlbase.UA_url() + "/login"
+        self.base_url_login = urlbase.UA_url() + "/login"
 
 
 
@@ -46,6 +51,7 @@ class emp_login(unittest.TestCase):
         payload = {'username':'ZHANGHAO1','password':'123456','verifyCode':'0000'}
         r = requests.post(self.base_url,data=payload,headers=head)
         self.result = r.json()
+        print(r.text)
         self.assertEqual(self.result['result'], True)
         self.assertEqual(self.result['username'], 'ZHANGHAO1')
         self.assertEqual(self.result['changePwd'], True)
@@ -116,13 +122,12 @@ class emp_login(unittest.TestCase):
         self.table_name = "ua_employee"
         test_data.ua_roleemp_delete(EMP_ID=self.empid)
         test_data.ua_roleemp_delete(EMP_ID=self.empid2)
-        self.data = {'EMP_NAME': 'ZHANGHAO1'}
-        self.data2 = {'EMP_NAME': 'ZHANGHAO2'}
-        db = DB()
-        db.clear(table_name=self.table_name, table_data=self.data)
-        db.clear(table_name=self.table_name,table_data=self.data2)
 
-        db.close()
+
+
+        test_data.ua_emp_delete(type='β', id=self.empid)
+        test_data.ua_emp_delete(type='α', id=self.empid2)
+
 
 
 

@@ -12,7 +12,7 @@ class get_getEmpResource(unittest.TestCase):
     ''' 欢迎页获取用户权限接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         self.base_url = self.emp + "/emp/updatePwd"
         self.base_url_login = self.emp + "/login"
 
@@ -35,7 +35,9 @@ class get_getEmpResource(unittest.TestCase):
 
 
         payload = {"token":self.token,'newPassword':'123456','oldPassword':'234567'}
-        r2 = self.s.get(self.base_url, params=payload)
+        r2 = self.s.post(self.base_url, data=payload)
+        print(r2.text)
+
         self.result = r2.json()
         self.assertEqual(self.result['result'], True)
 
@@ -48,7 +50,7 @@ class get_getEmpResource(unittest.TestCase):
 
 
         payload = {"token":self.token,'newPassword':'123456','oldPassword':'789456'}
-        r2 = self.s.get(self.base_url, params=payload)
+        r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
 
@@ -60,7 +62,7 @@ class get_getEmpResource(unittest.TestCase):
         ''' 错误的token'''
 
         payload = {"token":123456,'oldPassword':'123456','newPassword':'654321'}
-        r2 = self.s.get(self.base_url, params=payload)
+        r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
         pwd = test_data.ua_emp_search(value="PASSWORD", type='β')
@@ -70,7 +72,7 @@ class get_getEmpResource(unittest.TestCase):
         ''' 错误的的密码'''
 
         payload = {"token":self.token,'oldPassword':'000000','newPassword':'654321'}
-        r2 = self.s.get(self.base_url, params=payload)
+        r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
         pwd = test_data.ua_emp_search(value="PASSWORD", type='β')
@@ -80,7 +82,7 @@ class get_getEmpResource(unittest.TestCase):
         ''' 空的token'''
 
         payload = {"token":'', 'oldPassword': '123456', 'newPassword': '654321'}
-        r2 = self.s.get(self.base_url, params=payload)
+        r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
         pwd = test_data.ua_emp_search(value="PASSWORD", type='β')
@@ -90,7 +92,7 @@ class get_getEmpResource(unittest.TestCase):
         ''' 空的密码'''
 
         payload = {"token":self.token, 'oldPassword': '', 'newPassword': '654321'}
-        r2 = self.s.get(self.base_url, params=payload)
+        r2 = self.s.post(self.base_url, data=payload)
         self.result = r2.json()
         self.assertEqual(self.result['result'], False)
         pwd = test_data.ua_emp_search(value="PASSWORD", type='β')

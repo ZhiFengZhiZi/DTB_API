@@ -12,7 +12,7 @@ class emp_phone_duplicate(unittest.TestCase):
     ''' 人员邮箱查重接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         test_data.ua_emp_insert(count=2)
 
         self.empid1 = test_data.ua_emp_search(value='id',type='β')

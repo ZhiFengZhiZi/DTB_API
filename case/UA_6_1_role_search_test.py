@@ -15,7 +15,7 @@ class emp_login(unittest.TestCase):
 
 
         test_data.ua_emp_insert(count=2)
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         self.empid1 = test_data.ua_emp_search(value='id',type='β')
         test_data.ua_roleemp_insert(empid=self.empid1, roleid=1)
         test_data.ua_role_insert(1)

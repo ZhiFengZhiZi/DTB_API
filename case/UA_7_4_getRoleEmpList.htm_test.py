@@ -12,7 +12,7 @@ class emp_checkRoleName(unittest.TestCase):
     ''' 校验角色名称接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         test_data.ua_emp_insert(count=2)
         test_data.ua_role_insert(count=1)
         self.empid = test_data.ua_emp_search(value='id',type='β')

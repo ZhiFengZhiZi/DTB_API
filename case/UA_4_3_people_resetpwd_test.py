@@ -12,7 +12,7 @@ class emp_people_resetpwd(unittest.TestCase):
     ''' 重置密码接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         self.base_url_login = self.emp + "/login"
         self.base_url = self.emp + "/emp/resetPwd"
 

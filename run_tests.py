@@ -14,16 +14,14 @@ class report():
 
 
     def __init__(self):
-        self.test_dir0 = './case_user_ua'
+        self.test_dir0 = './case'
         self.test_dir = './'
-        self.discover = unittest.defaultTestLoader.discover(self.test_dir, pattern='*_test.py',top_level_dir=None)
-
+        self.discover = unittest.defaultTestLoader.discover(self.test_dir0, pattern='*_test.py',top_level_dir=None)
 
     def run(self):
         self.now = time.strftime("%Y-%m-%d %H_%M_%S")
         self.filename = './report/' + self.now + '_result.html'
         self.fp = open(self.filename, 'wb')
-
 
         self.runner = HTMLTestRunner.HTMLTestRunner(stream=self.fp,
                                 title='Guest Manage System Interface Test Report',
@@ -31,6 +29,8 @@ class report():
 
         self.runner.run(self.discover)
         self.fp.close()
+
+
 
 
 if __name__ == "__main__":

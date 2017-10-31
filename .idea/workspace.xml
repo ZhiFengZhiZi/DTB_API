@@ -2,7 +2,7 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://D:/PythonWorkspace/CreatProduct.py" line="17" />
-    <bookmark url="file://$PROJECT_DIR$/case/UA_3_3_updatePwd.htm_test.py" line="63" />
+    <bookmark url="file://$PROJECT_DIR$/case/UA_3_3_updatePwd.htm_test.py" line="65" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="411f5e08-373d-4949-98af-b72f6ea95d66" name="Default" comment="">
@@ -16,6 +16,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py" afterPath="$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_11_4_delOrg_test.py" afterPath="$PROJECT_DIR$/case/UA_11_4_delOrg_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py" afterPath="$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_2_2login_test.py" afterPath="$PROJECT_DIR$/case/UA_2_2login_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_2_3_logou_test.py" afterPath="$PROJECT_DIR$/case/UA_2_3_logou_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_3_1_get_info_test.py" afterPath="$PROJECT_DIR$/case/UA_3_1_get_info_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py" afterPath="$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py" />
@@ -39,16 +40,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_8_4_updateResStatus_test.py" afterPath="$PROJECT_DIR$/case/UA_8_4_updateResStatus_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py" afterPath="$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py" afterPath="$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case_user_ua/UA_USER_2_1_search_clause_test.py" afterPath="$PROJECT_DIR$/case_user_ua/UA_USER_2_1_search_clause_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case_user_ua/UA_USER_2_2_getInsuranceCompanys_test.py" afterPath="$PROJECT_DIR$/case_user_ua/UA_USER_2_2_getInsuranceCompanys_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case_user_ua/UA_USER_2_3_getInsuracneTypes_test.py" afterPath="$PROJECT_DIR$/case_user_ua/UA_USER_2_3_getInsuracneTypes_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case_user_ua/UA_USER_2_4_delete_clause_test.py" afterPath="$PROJECT_DIR$/case_user_ua/UA_USER_2_4_delete_clause_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case_user_ua/UA_USER_2_5_toModClause_test.py" afterPath="$PROJECT_DIR$/case_user_ua/UA_USER_2_5_toModClause_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/urlbase.py" afterPath="$PROJECT_DIR$/common/urlbase.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mysql_db.py" afterPath="$PROJECT_DIR$/db/mysql_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mysql_db_2.py" afterPath="$PROJECT_DIR$/db/mysql_db_2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/test_data.py" afterPath="$PROJECT_DIR$/db/test_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_config.ini" afterPath="$PROJECT_DIR$/db_config.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_tests.py" afterPath="$PROJECT_DIR$/run_tests.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,26 +64,26 @@
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_eims_login_test_catch_code_success.coverage" NAME="Unittest eims_login.test_catch_code_success Coverage Results" MODIFIED="1495086054261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_userinfo__5_.coverage" NAME="Unittests in get_userinfo (5) Coverage Results" MODIFIED="1496287122594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_createparam_null.coverage" NAME="Unittest emp_login.test_createparam_null Coverage Results" MODIFIED="1495693100278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_phone_duplicate.coverage" NAME="Unittests in emp_phone_duplicate Coverage Results" MODIFIED="1496924365071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_phone_duplicate.coverage" NAME="Unittests in emp_phone_duplicate Coverage Results" MODIFIED="1509435833848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_delete_role_test_roleid_incorrect.coverage" NAME="Unittest emp_delete_role.test_roleid_incorrect Coverage Results" MODIFIED="1495711689853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_eims_login__3_.coverage" NAME="Unittests in eims_login (3) Coverage Results" MODIFIED="1495070817152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_search_test_get_userinfo_wrong_empcname.coverage" NAME="Unittest emp_people_search.test_get_userinfo_wrong_empcname Coverage Results" MODIFIED="1496921733436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_people_freeze__1_.coverage" NAME="Unittest emp_login.test_people_freeze (1) Coverage Results" MODIFIED="1495443537397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_param_wrong.coverage" NAME="Unittest emp_login.test_param_wrong Coverage Results" MODIFIED="1495680041711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_search_test_get_userinfo.coverage" NAME="Unittest emp_people_search.test_get_userinfo Coverage Results" MODIFIED="1496999266066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_search_test_get_userinfo.coverage" NAME="Unittest emp_people_search.test_get_userinfo Coverage Results" MODIFIED="1509435673485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_6_1_role_search_test.coverage" NAME="Unittests in 6.1_role_search_test Coverage Results" MODIFIED="1495705905533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_3_2_getEmpResource_test.coverage" NAME="Unittests in UA_3_2_getEmpResource_test Coverage Results" MODIFIED="1496891543924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_login_null2.coverage" NAME="Unittest emp_login.test_login_null2 Coverage Results" MODIFIED="1495678682107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$7_4_getRoleEmpList_htm_test.coverage" NAME="7.4_getRoleEmpList.htm_test Coverage Results" MODIFIED="1495778831172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_create.coverage" NAME="Unittests in emp_people_create Coverage Results" MODIFIED="1496923079162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_create.coverage" NAME="Unittests in emp_people_create Coverage Results" MODIFIED="1509435718472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_eims_login__2_.coverage" NAME="Unittests in eims_login (2) Coverage Results" MODIFIED="1495013581510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_checkRoleName_test_Nonexistent_id.coverage" NAME="Unittest emp_checkRoleName.test_Nonexistent_id Coverage Results" MODIFIED="1496991447710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_res_test_params_create_correct.coverage" NAME="Unittest emp_createEdit_res.test_params_create_correct Coverage Results" MODIFIED="1496996507767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$code_test.coverage" NAME="code_test Coverage Results" MODIFIED="1497341355444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__4_.coverage" NAME="Unittests in emp_getResInfo_info (4) Coverage Results" MODIFIED="1499664773656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_checkRoleName_test_Nonexistent_id.coverage" NAME="Unittest emp_checkRoleName.test_Nonexistent_id Coverage Results" MODIFIED="1509436169157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__4_.coverage" NAME="Unittests in emp_getResInfo_info (4) Coverage Results" MODIFIED="1509436444864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_createEdit_res__1_.coverage" NAME="Unittests in emp_createEdit_res (1) Coverage Results" MODIFIED="1495783591699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_userinfo.coverage" NAME="Unittests in get_userinfo Coverage Results" MODIFIED="1496999837456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_toModClause_test_name_success.coverage" NAME="Unittest toModClause.test_name_success Coverage Results" MODIFIED="1498187070798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_userinfo.coverage" NAME="Unittests in get_userinfo Coverage Results" MODIFIED="1509435550300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_get_userinfo_empphone.coverage" NAME="Unittest emp_login.test_get_userinfo_empphone Coverage Results" MODIFIED="1495095949656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_phone_duplicate_test_get_userinfo_wrong_id.coverage" NAME="Unittest emp_phone_duplicate.test_get_userinfo_wrong_id Coverage Results" MODIFIED="1495762093084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_7_2_creatEdit_role_test.coverage" NAME="Unittests in 7.2_creatEdit_role_test Coverage Results" MODIFIED="1495780335053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -97,6 +91,7 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_8_4_updateResStatus_test.coverage" NAME="Unittests in UA_8_4_updateResStatus_test Coverage Results" MODIFIED="1497266776917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_freeze__1_.coverage" NAME="Unittests in emp_people_freeze (1) Coverage Results" MODIFIED="1496922251764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_USER_2_1_get_clauselist_test.coverage" NAME="Unittests in UA_USER_2_1_get_clauselist_test Coverage Results" MODIFIED="1498029661648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_createparams_opTypeNull_correct.coverage" NAME="Unittest emp_createEdit_role_info.test_createparams_opTypeNull_correct Coverage Results" MODIFIED="1509436049422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_checkRoleName_test_null_id.coverage" NAME="Unittest emp_checkRoleName.test_null_id Coverage Results" MODIFIED="1496991482778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_freeze_test_people_freeze.coverage" NAME="Unittest emp_people_freeze.test_people_freeze Coverage Results" MODIFIED="1496922199208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$appolication_delete.coverage" NAME="appolication_delete Coverage Results" MODIFIED="1498116602612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/PythonWorkspace" />
@@ -105,11 +100,12 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_search_role_info_test_incorrect_id.coverage" NAME="Unittest emp_search_role_info.test_incorrect_id Coverage Results" MODIFIED="1496979021680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_userinfo__1_.coverage" NAME="Unittests in get_userinfo (1) Coverage Results" MODIFIED="1496998735637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_ClauseList__4_.coverage" NAME="Unittests in get_ClauseList (4) Coverage Results" MODIFIED="1504688748545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_id_incorrect.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_id_incorrect Coverage Results" MODIFIED="1509436020238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_no_opType.coverage" NAME="Unittest emp_getResInfo_info.test_no_opType Coverage Results" MODIFIED="1499737886254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_delete_role__1_.coverage" NAME="Unittests in emp_delete_role (1) Coverage Results" MODIFIED="1495711490871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_4_3_people_resetpwd_test.coverage" NAME="Unittests in UA_4_3_people_resetpwd_test Coverage Results" MODIFIED="1497343146429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_InsuranceCompanys.coverage" NAME="Unittests in get_InsuranceCompanys Coverage Results" MODIFIED="1498114305146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_correct.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_correct Coverage Results" MODIFIED="1496913695660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_correct.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_correct Coverage Results" MODIFIED="1509436043072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_get_userinfo_wrong_empcname.coverage" NAME="Unittest emp_login.test_get_userinfo_wrong_empcname Coverage Results" MODIFIED="1495098794571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_ClauseList_test_insurerId_success.coverage" NAME="Unittest get_ClauseList.test_insurerId_success Coverage Results" MODIFIED="1498202272052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_all_null.coverage" NAME="Unittest emp_login.test_all_null Coverage Results" MODIFIED="1495702908964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -118,8 +114,8 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_delete_role__2_.coverage" NAME="Unittests in emp_delete_role (2) Coverage Results" MODIFIED="1496978170040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_checkRoleName_test_ExistingCheck_id.coverage" NAME="Unittest emp_checkRoleName.test_ExistingCheck_id Coverage Results" MODIFIED="1496993111887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_updateResStatus_info__2_.coverage" NAME="Unittests in emp_updateResStatus_info (2) Coverage Results" MODIFIED="1495787083012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login__2_.coverage" NAME="Unittests in emp_login (2) Coverage Results" MODIFIED="1496890366319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResList_info__1_.coverage" NAME="Unittests in emp_getResList_info (1) Coverage Results" MODIFIED="1496993233701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login__2_.coverage" NAME="Unittests in emp_login (2) Coverage Results" MODIFIED="1509434268738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_resetpwd_test_param_wrong.coverage" NAME="Unittest emp_people_resetpwd.test_param_wrong Coverage Results" MODIFIED="1496922789638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_search_test_get_userinfo_empcname.coverage" NAME="Unittest emp_people_search.test_get_userinfo_empcname Coverage Results" MODIFIED="1496921513301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_toModClause_test_id_success.coverage" NAME="Unittest toModClause.test_id_success Coverage Results" MODIFIED="1498186287768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
@@ -133,8 +129,8 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_search_role_info__1_.coverage" NAME="Unittests in emp_search_role_info (1) Coverage Results" MODIFIED="1497001218210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_search__4_.coverage" NAME="Unittests in emp_people_search (4) Coverage Results" MODIFIED="1496921334708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName__2_.coverage" NAME="Unittests in emp_checkRoleName (2) Coverage Results" MODIFIED="1496991112877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName.coverage" NAME="Unittests in emp_checkRoleName Coverage Results" MODIFIED="1497343925586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1504789651625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName.coverage" NAME="Unittests in emp_checkRoleName Coverage Results" MODIFIED="1509436128461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1509436673238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_createEdit_res__3_.coverage" NAME="Unittests in emp_createEdit_res (3) Coverage Results" MODIFIED="1496995181397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_get_userinfo_empcname.coverage" NAME="Unittest emp_login.test_get_userinfo_empcname Coverage Results" MODIFIED="1495095820747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_createparam_correct.coverage" NAME="Unittest emp_login.test_createparam_correct Coverage Results" MODIFIED="1495693202480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -143,15 +139,15 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_delete_role__1_.coverage" NAME="Unittests in emp_delete_role (1) Coverage Results" MODIFIED="1496978059894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_delete_role_test_correct_all.coverage" NAME="Unittest emp_delete_role.test_correct_all Coverage Results" MODIFIED="1495711552851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_checkRoleName.coverage" NAME="Unittests in emp_checkRoleName Coverage Results" MODIFIED="1495781006104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_chagePWD_login_success.coverage" NAME="Unittest emp_login.test_chagePWD_login_success Coverage Results" MODIFIED="1499666485583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_chagePWD_login_success.coverage" NAME="Unittest emp_login.test_chagePWD_login_success Coverage Results" MODIFIED="1509435522822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$application_no.coverage" NAME="application_no Coverage Results" MODIFIED="1499910180456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/PythonWorkspace" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_search_role_info__4_.coverage" NAME="Unittests in emp_search_role_info (4) Coverage Results" MODIFIED="1495782758033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_getEmpResource_test_old_wrong.coverage" NAME="Unittest get_getEmpResource.test_old_wrong Coverage Results" MODIFIED="1496920341664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login__1_.coverage" NAME="Unittests in emp_login (1) Coverage Results" MODIFIED="1496890056912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_getEmpResource_test_old_wrong.coverage" NAME="Unittest get_getEmpResource.test_old_wrong Coverage Results" MODIFIED="1509433079293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login__1_.coverage" NAME="Unittests in emp_login (1) Coverage Results" MODIFIED="1509435547521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_no_parentID.coverage" NAME="Unittest emp_getResInfo_info.test_no_parentID Coverage Results" MODIFIED="1499737361737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_eims_login.coverage" NAME="Unittests in eims_login Coverage Results" MODIFIED="1495086771330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$mysql_db_2.coverage" NAME="mysql_db_2 Coverage Results" MODIFIED="1498029509329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login.coverage" NAME="Unittests in emp_login Coverage Results" MODIFIED="1504788235288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login.coverage" NAME="Unittests in emp_login Coverage Results" MODIFIED="1509435875193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_userinfo__2_.coverage" NAME="Unittests in get_userinfo (2) Coverage Results" MODIFIED="1496919649943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_people_common.coverage" NAME="Unittest emp_login.test_people_common Coverage Results" MODIFIED="1495447974515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_login_pwd_wrong.coverage" NAME="Unittest emp_login.test_login_pwd_wrong Coverage Results" MODIFIED="1496889155784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -161,31 +157,34 @@
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_delete_role__3_.coverage" NAME="Unittests in emp_delete_role (3) Coverage Results" MODIFIED="1495713133420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_createEdit_res.coverage" NAME="Unittests in emp_createEdit_res Coverage Results" MODIFIED="1495783551376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_ClauseList__5_.coverage" NAME="Unittests in get_ClauseList (5) Coverage Results" MODIFIED="1504688878808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_createEdit_role_info__1_.coverage" NAME="Unittests in emp_createEdit_role_info (1) Coverage Results" MODIFIED="1509435986227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_get_userinfo__1_.coverage" NAME="Unittest emp_login.test_get_userinfo (1) Coverage Results" MODIFIED="1495095800107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_get_userinfo_wrong_starts.coverage" NAME="Unittest emp_login.test_get_userinfo_wrong_starts Coverage Results" MODIFIED="1495101648838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_ClauseList.coverage" NAME="Unittests in get_ClauseList Coverage Results" MODIFIED="1504787383649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_search__3_.coverage" NAME="Unittests in emp_people_search (3) Coverage Results" MODIFIED="1496921174540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_userinfo__3_.coverage" NAME="Unittests in get_userinfo (3) Coverage Results" MODIFIED="1496919655408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_checkRoleName__4_.coverage" NAME="Unittests in emp_checkRoleName (4) Coverage Results" MODIFIED="1495779343761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_userinfo_test_token_success.coverage" NAME="Unittest get_userinfo.test_token_success Coverage Results" MODIFIED="1496999784660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_userinfo_test_token_success.coverage" NAME="Unittest get_userinfo.test_token_success Coverage Results" MODIFIED="1509433406699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$test_data.coverage" NAME="test_data Coverage Results" MODIFIED="1495445359755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/DTB_API$UA_7_1_search_role_info_test.coverage" NAME="UA_7_1_search_role_info_test Coverage Results" MODIFIED="1497001413429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_freeze_test_people_common.coverage" NAME="Unittest emp_people_freeze.test_people_common Coverage Results" MODIFIED="1496922437030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_userinfo_test_token_wrong.coverage" NAME="Unittest get_userinfo.test_token_wrong Coverage Results" MODIFIED="1509433413487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_3_1_get_info.coverage" NAME="Unittests in UA_3_1_get_info Coverage Results" MODIFIED="1496287552440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_updateResStatus_info__1_.coverage" NAME="Unittests in emp_updateResStatus_info (1) Coverage Results" MODIFIED="1495786933009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$CreatProduct.coverage" NAME="CreatProduct Coverage Results" MODIFIED="1498443360066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/PythonWorkspace" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_duplicate_id.coverage" NAME="Unittest emp_getResInfo_info.test_duplicate_id Coverage Results" MODIFIED="1504790061397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_duplicate_id.coverage" NAME="Unittest emp_getResInfo_info.test_duplicate_id Coverage Results" MODIFIED="1509436361439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_status_wrong_nostatus.coverage" NAME="Unittest emp_login.test_status_wrong_nostatus Coverage Results" MODIFIED="1495679029218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_getEmpResource__3_.coverage" NAME="Unittests in get_getEmpResource (3) Coverage Results" MODIFIED="1496901375776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_eims_login_test_login_pwd_wrong.coverage" NAME="Unittest eims_login.test_login_pwd_wrong Coverage Results" MODIFIED="1495086847015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_getEmpResource_test_pwd_null.coverage" NAME="Unittest get_getEmpResource.test_pwd_null Coverage Results" MODIFIED="1509435650862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName__3_.coverage" NAME="Unittests in emp_checkRoleName (3) Coverage Results" MODIFIED="1496990555742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_checkRoleName_test_correct_Emps.coverage" NAME="Unittest emp_checkRoleName.test_correct_Emps Coverage Results" MODIFIED="1495781098085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_login.coverage" NAME="Unittests in emp_login Coverage Results" MODIFIED="1495788206059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_search_role_info.coverage" NAME="Unittests in emp_search_role_info Coverage Results" MODIFIED="1497001183926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_createparams_correct.coverage" NAME="Unittest emp_createEdit_role_info.test_createparams_correct Coverage Results" MODIFIED="1496913177082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_search_role_info.coverage" NAME="Unittests in emp_search_role_info Coverage Results" MODIFIED="1509435896785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_createparams_correct.coverage" NAME="Unittest emp_createEdit_role_info.test_createparams_correct Coverage Results" MODIFIED="1509436052056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_2_2login_test.coverage" NAME="Unittests in UA_2_2login_test Coverage Results" MODIFIED="1496999166324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_11_3_saveOrg_test.coverage" NAME="Unittests in UA_11_3_saveOrg_test Coverage Results" MODIFIED="1499774531607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_remarkNull_correct.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_remarkNull_correct Coverage Results" MODIFIED="1496913516504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_remarkNull_correct.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_remarkNull_correct Coverage Results" MODIFIED="1509436038970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_checkRoleName__3_.coverage" NAME="Unittests in emp_checkRoleName (3) Coverage Results" MODIFIED="1495781163796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_getEmpResource__4_.coverage" NAME="Unittests in get_getEmpResource (4) Coverage Results" MODIFIED="1496893066330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_checkRoleName_test_only_name.coverage" NAME="Unittest emp_checkRoleName.test_only_name Coverage Results" MODIFIED="1495765256664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -199,15 +198,15 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName__4_.coverage" NAME="Unittests in emp_checkRoleName (4) Coverage Results" MODIFIED="1496991143010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$req.coverage" NAME="req Coverage Results" MODIFIED="1495084817478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/PythonWorkspace/amaz" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_checkRoleName__2_.coverage" NAME="Unittests in emp_checkRoleName (2) Coverage Results" MODIFIED="1495780937089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_phone_duplicate__1_.coverage" NAME="Unittests in emp_phone_duplicate (1) Coverage Results" MODIFIED="1496923795354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_phone_duplicate__1_.coverage" NAME="Unittests in emp_phone_duplicate (1) Coverage Results" MODIFIED="1509435847782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$test_data.coverage" NAME="test_data Coverage Results" MODIFIED="1498034808628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_checkRoleName_test_ExistingCheck_id.coverage" NAME="Unittest emp_checkRoleName.test_ExistingCheck_id Coverage Results" MODIFIED="1495778700266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_checkRoleName_test_correct_oneEmp.coverage" NAME="Unittest emp_checkRoleName.test_correct_oneEmp Coverage Results" MODIFIED="1496992189886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_edit_params_correct.coverage" NAME="Unittest emp_getResInfo_info.test_edit_params_correct Coverage Results" MODIFIED="1496998112442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_updateResStatus_info_test_params_correct.coverage" NAME="Unittest emp_updateResStatus_info.test_params_correct Coverage Results" MODIFIED="1496995234042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$UA_3_3_updatePwd_htm_test.coverage" NAME="UA_3_3_updatePwd.htm_test Coverage Results" MODIFIED="1496920146181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_getEmpResource_test_token_success.coverage" NAME="Unittest get_getEmpResource.test_token_success Coverage Results" MODIFIED="1496920887494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_freeze.coverage" NAME="Unittests in emp_people_freeze Coverage Results" MODIFIED="1496999873411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_getEmpResource_test_token_success.coverage" NAME="Unittest get_getEmpResource.test_token_success Coverage Results" MODIFIED="1509433421097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_freeze.coverage" NAME="Unittests in emp_people_freeze Coverage Results" MODIFIED="1509435686930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_search_role_info__1_.coverage" NAME="Unittests in emp_search_role_info (1) Coverage Results" MODIFIED="1495782665530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_delete_role__4_.coverage" NAME="Unittests in emp_delete_role (4) Coverage Results" MODIFIED="1496978462591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_phone_duplicate_test_phone_null.coverage" NAME="Unittest emp_phone_duplicate.test_phone_null Coverage Results" MODIFIED="1496925160456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -220,70 +219,78 @@
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_get_userinfo_wrong_empphone.coverage" NAME="Unittest emp_login.test_get_userinfo_wrong_empphone Coverage Results" MODIFIED="1495697473582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_delete_role.coverage" NAME="Unittests in emp_delete_role Coverage Results" MODIFIED="1495711405525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_getEmpResource__2_.coverage" NAME="Unittests in get_getEmpResource (2) Coverage Results" MODIFIED="1496901306114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_createEdit_res.coverage" NAME="Unittests in emp_createEdit_res Coverage Results" MODIFIED="1496995435632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_createEdit_res.coverage" NAME="Unittests in emp_createEdit_res Coverage Results" MODIFIED="1509436235642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_status_wrong_data.coverage" NAME="Unittest emp_login.test_status_wrong_data Coverage Results" MODIFIED="1495445841485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_updateResStatus_info.coverage" NAME="Unittests in emp_updateResStatus_info Coverage Results" MODIFIED="1497317216810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_updateResStatus_info.coverage" NAME="Unittests in emp_updateResStatus_info Coverage Results" MODIFIED="1509436258433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_InsuranceCompanys_test_insuccess.coverage" NAME="Unittest get_InsuranceCompanys.test_insuccess Coverage Results" MODIFIED="1498202339686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_get_userinfo.coverage" NAME="Unittest emp_login.test_get_userinfo Coverage Results" MODIFIED="1495099318608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_editparam_correct.coverage" NAME="Unittest emp_login.test_editparam_correct Coverage Results" MODIFIED="1495695982357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_login__3_.coverage" NAME="Unittests in emp_login (3) Coverage Results" MODIFIED="1495711234820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_createEdit_role_info.coverage" NAME="Unittests in emp_createEdit_role_info Coverage Results" MODIFIED="1496913400636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_delete_role__3_.coverage" NAME="Unittests in emp_delete_role (3) Coverage Results" MODIFIED="1496978416631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_createEdit_role_info.coverage" NAME="Unittests in emp_createEdit_role_info Coverage Results" MODIFIED="1509435909324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_phone_duplicate__3_.coverage" NAME="Unittests in emp_phone_duplicate (3) Coverage Results" MODIFIED="1496924315759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_InsuranceCompanys__2_.coverage" NAME="Unittests in get_InsuranceCompanys (2) Coverage Results" MODIFIED="1498114235165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_params_incorrect__1_.coverage" NAME="Unittest emp_getResInfo_info.test_params_incorrect (1) Coverage Results" MODIFIED="1499671495898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login__3_.coverage" NAME="Unittests in emp_login (3) Coverage Results" MODIFIED="1496890311699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResList_info.coverage" NAME="Unittests in emp_getResList_info Coverage Results" MODIFIED="1496992766577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login__3_.coverage" NAME="Unittests in emp_login (3) Coverage Results" MODIFIED="1509434923021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResList_info.coverage" NAME="Unittests in emp_getResList_info Coverage Results" MODIFIED="1509436190721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1495789358495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_resetpwd_test_param_correct.coverage" NAME="Unittest emp_people_resetpwd.test_param_correct Coverage Results" MODIFIED="1496922764901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_param_correct.coverage" NAME="Unittest emp_login.test_param_correct Coverage Results" MODIFIED="1495679864011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info.coverage" NAME="Unittests in emp_getResInfo_info Coverage Results" MODIFIED="1499671039236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_login_success.coverage" NAME="Unittest emp_login.test_login_success Coverage Results" MODIFIED="1504505331181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_resetpwd.coverage" NAME="Unittests in emp_people_resetpwd Coverage Results" MODIFIED="1497343912553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_login_success.coverage" NAME="Unittest emp_login.test_login_success Coverage Results" MODIFIED="1509435400032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info.coverage" NAME="Unittests in emp_getResInfo_info Coverage Results" MODIFIED="1509436317898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_ClauseList__1_.coverage" NAME="Unittests in get_ClauseList (1) Coverage Results" MODIFIED="1504786632045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_resetpwd.coverage" NAME="Unittests in emp_people_resetpwd Coverage Results" MODIFIED="1509435707454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_createEdit_res_test_params_edit_correct.coverage" NAME="Unittest emp_createEdit_res.test_params_edit_correct Coverage Results" MODIFIED="1495783609586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResList_info_test_params_correct.coverage" NAME="Unittest emp_getResList_info.test_params_correct Coverage Results" MODIFIED="1496994002644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_delete_Clause_test_id_success.coverage" NAME="Unittest delete_Clause.test_id_success Coverage Results" MODIFIED="1498116568676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_res_test_params_edit_correct.coverage" NAME="Unittest emp_createEdit_res.test_params_edit_correct Coverage Results" MODIFIED="1496997724303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__1_.coverage" NAME="Unittests in emp_getResInfo_info (1) Coverage Results" MODIFIED="1499671741903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__1_.coverage" NAME="Unittests in emp_getResInfo_info (1) Coverage Results" MODIFIED="1509436481239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_params_null.coverage" NAME="Unittest emp_getResInfo_info.test_params_null Coverage Results" MODIFIED="1509436281417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_search_role_info__3_.coverage" NAME="Unittests in emp_search_role_info (3) Coverage Results" MODIFIED="1497001528686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__2_.coverage" NAME="Unittests in emp_getResInfo_info (2) Coverage Results" MODIFIED="1499671824718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__2_.coverage" NAME="Unittests in emp_getResInfo_info (2) Coverage Results" MODIFIED="1509436294285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_updateResStatus_info_test_id_incorrect.coverage" NAME="Unittest emp_updateResStatus_info.test_id_incorrect Coverage Results" MODIFIED="1497266767099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_params_correct.coverage" NAME="Unittest emp_getResInfo_info.test_params_correct Coverage Results" MODIFIED="1499669211882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_createparams_allnull_incorrect.coverage" NAME="Unittest emp_createEdit_role_info.test_createparams_allnull_incorrect Coverage Results" MODIFIED="1509436046878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_people_freeze.coverage" NAME="Unittest emp_login.test_people_freeze Coverage Results" MODIFIED="1495443579283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName__1_.coverage" NAME="Unittests in emp_checkRoleName (1) Coverage Results" MODIFIED="1496991904689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_checkRoleName__1_.coverage" NAME="Unittests in emp_checkRoleName (1) Coverage Results" MODIFIED="1509436146293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_delete_Clause_test_name_success.coverage" NAME="Unittest delete_Clause.test_name_success Coverage Results" MODIFIED="1498185537744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_search_role_info.coverage" NAME="Unittests in emp_search_role_info Coverage Results" MODIFIED="1495782776506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_roleNameSame_incorrect.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_roleNameSame_incorrect Coverage Results" MODIFIED="1497001838646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_getEmpResource_test_token_success__1_.coverage" NAME="Unittest get_getEmpResource.test_token_success (1) Coverage Results" MODIFIED="1509433523063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_roleNameSame_incorrect.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_roleNameSame_incorrect Coverage Results" MODIFIED="1509436034634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_status_wrong_null.coverage" NAME="Unittest emp_login.test_status_wrong_null Coverage Results" MODIFIED="1495446728078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_getEmpResource_test_token_null.coverage" NAME="Unittest get_getEmpResource.test_token_null Coverage Results" MODIFIED="1509433427723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_roleNameNull_incorrect.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_roleNameNull_incorrect Coverage Results" MODIFIED="1509436030333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_7_2_creatEdit_role_test.coverage" NAME="Unittests in UA_7_2_creatEdit_role_test Coverage Results" MODIFIED="1496913984862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_resetpwd__1_.coverage" NAME="Unittests in emp_people_resetpwd (1) Coverage Results" MODIFIED="1497271585817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_toModClause.coverage" NAME="Unittests in toModClause Coverage Results" MODIFIED="1504511932760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_params_correct.coverage" NAME="Unittest emp_login.test_params_correct Coverage Results" MODIFIED="1496974231308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__3_.coverage" NAME="Unittests in emp_getResInfo_info (3) Coverage Results" MODIFIED="1499657545194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_getEmpResource.coverage" NAME="Unittests in get_getEmpResource Coverage Results" MODIFIED="1496998850343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_getResInfo_info__3_.coverage" NAME="Unittests in emp_getResInfo_info (3) Coverage Results" MODIFIED="1509436326185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_getEmpResource.coverage" NAME="Unittests in get_getEmpResource Coverage Results" MODIFIED="1509435577789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$UA_2_3_logou_test.coverage" NAME="UA_2_3_logou_test Coverage Results" MODIFIED="1495788180634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_3_1_get_info_test.coverage" NAME="Unittests in UA_3_1_get_info_test Coverage Results" MODIFIED="1497270270415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_ClauseList__3_.coverage" NAME="Unittests in get_ClauseList (3) Coverage Results" MODIFIED="1504787012636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_createEdit_res__2_.coverage" NAME="Unittests in emp_createEdit_res (2) Coverage Results" MODIFIED="1495783811722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_phone_duplicate_test.coverage" NAME="Unittests in phone_duplicate_test Coverage Results" MODIFIED="1495697508650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$urlbase.coverage" NAME="urlbase Coverage Results" MODIFIED="1504786596574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login__4_.coverage" NAME="Unittests in emp_login (4) Coverage Results" MODIFIED="1509435366698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_7_3_checkRoleName_test.coverage" NAME="Unittests in 7.3_checkRoleName_test Coverage Results" MODIFIED="1495765144808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$appolication_delete.coverage" NAME="appolication_delete Coverage Results" MODIFIED="1495800852156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/PythonWorkspace" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_getEmpResource__1_.coverage" NAME="Unittests in get_getEmpResource (1) Coverage Results" MODIFIED="1496998890178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_getEmpResource__1_.coverage" NAME="Unittests in get_getEmpResource (1) Coverage Results" MODIFIED="1509435587634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_login__2_.coverage" NAME="Unittests in emp_login (2) Coverage Results" MODIFIED="1495711216448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_freeze__2_.coverage" NAME="Unittests in emp_people_freeze (2) Coverage Results" MODIFIED="1496922387621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_params_pagesize2.coverage" NAME="Unittest emp_login.test_params_pagesize2 Coverage Results" MODIFIED="1496974361019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_phone_duplicate__2_.coverage" NAME="Unittests in emp_phone_duplicate (2) Coverage Results" MODIFIED="1496924225192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_phone_duplicate__2_.coverage" NAME="Unittests in emp_phone_duplicate (2) Coverage Results" MODIFIED="1509435861362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_params_incorrect.coverage" NAME="Unittest emp_getResInfo_info.test_params_incorrect Coverage Results" MODIFIED="1499774364488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$code_test.coverage" NAME="code_test Coverage Results" MODIFIED="1495100417605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_InsuranceCompanys__1_.coverage" NAME="Unittests in get_InsuranceCompanys (1) Coverage Results" MODIFIED="1498113923087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_delete_role.coverage" NAME="Unittests in emp_delete_role Coverage Results" MODIFIED="1496992907081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_delete_role.coverage" NAME="Unittests in emp_delete_role Coverage Results" MODIFIED="1509435888498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittest_emp_login_test_params_correct.coverage" NAME="Unittest emp_login.test_params_correct Coverage Results" MODIFIED="1495703353629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_getEmpResource_test_token_wrong.coverage" NAME="Unittest get_getEmpResource.test_token_wrong Coverage Results" MODIFIED="1509433424908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_people_freeze_test_status_wrong_noid.coverage" NAME="Unittest emp_people_freeze.test_status_wrong_noid Coverage Results" MODIFIED="1496922173990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_get_ClauseList__2_.coverage" NAME="Unittests in get_ClauseList (2) Coverage Results" MODIFIED="1504786852508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_7_5_addRoleEmp_test.coverage" NAME="Unittests in 7.5_addRoleEmp_test Coverage Results" MODIFIED="1495776654658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_search_role_info__2_.coverage" NAME="Unittests in emp_search_role_info (2) Coverage Results" MODIFIED="1495782675451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_login__5_.coverage" NAME="Unittests in emp_login (5) Coverage Results" MODIFIED="1509435043620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_eims_login__1_.coverage" NAME="Unittests in eims_login (1) Coverage Results" MODIFIED="1495013156967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_delete_role__5_.coverage" NAME="Unittests in emp_delete_role (5) Coverage Results" MODIFIED="1496978476339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_checkRoleName_test_part_matching_name.coverage" NAME="Unittest emp_checkRoleName.test_part_matching_name Coverage Results" MODIFIED="1497344073618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -291,11 +298,12 @@
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_all_null.coverage" NAME="Unittest emp_getResInfo_info.test_all_null Coverage Results" MODIFIED="1499739702340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_get_ClauseList_test_name_success.coverage" NAME="Unittest get_ClauseList.test_name_success Coverage Results" MODIFIED="1504511755697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_user_ua" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_checkRoleName_test_Mismatching_name.coverage" NAME="Unittest emp_checkRoleName.test_Mismatching_name Coverage Results" MODIFIED="1497343920121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_login_null2.coverage" NAME="Unittest emp_login.test_login_null2 Coverage Results" MODIFIED="1499666470577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_search.coverage" NAME="Unittests in emp_people_search Coverage Results" MODIFIED="1497340907784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_login_test_login_null2.coverage" NAME="Unittest emp_login.test_login_null2 Coverage Results" MODIFIED="1509435383718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_emp_people_search.coverage" NAME="Unittests in emp_people_search Coverage Results" MODIFIED="1509435676715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_getResInfo_info_test_params_wrong.coverage" NAME="Unittest emp_getResInfo_info.test_params_wrong Coverage Results" MODIFIED="1499668238601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_5_2_phone_duplicate_test.coverage" NAME="Unittests in 5.2_phone_duplicate_test Coverage Results" MODIFIED="1495761658133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_phone_duplicate.coverage" NAME="Unittests in emp_phone_duplicate Coverage Results" MODIFIED="1495783866227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/DTB_API$Unittest_emp_createEdit_role_info_test_editparams_idNull_incorrect.coverage" NAME="Unittest emp_createEdit_role_info.test_editparams_idNull_incorrect Coverage Results" MODIFIED="1509436103249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTBrequests$Unittests_in_emp_checkRoleName__1_.coverage" NAME="Unittests in emp_checkRoleName (1) Coverage Results" MODIFIED="1495780734917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/DTB_API$Unittests_in_UA_3_3_updatePwd_htm_test.coverage" NAME="Unittests in UA_3_3_updatePwd.htm_test Coverage Results" MODIFIED="1496893245184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
   </component>
@@ -305,43 +313,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UA_3_2_getEmpResource_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="run_tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-07 21_07_32_result.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/2017-09-07 21_07_32_result.html">
+      <file leaf-file-name="2017-10-31 15_55_05_result.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/2017-10-31 15_55_05_result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="78">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UA_3_1_get_info_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/UA_3_1_get_info_test.py">
+      <file leaf-file-name="UA_9_1_getRoleAuthInfo_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="251">
+              <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -350,50 +346,48 @@
       <file leaf-file-name="UA_11_3_saveOrg_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1794">
-              <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UA_4_2_people_freeze_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/UA_4_2_people_freeze_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="102" column="28" lean-forward="false" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/test_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="98" column="61" lean-forward="false" selection-start-line="98" selection-start-column="61" selection-end-line="98" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UA_2_3_logou_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/UA_2_3_logou_test.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UA_2_1_verifyCode_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py">
+      <file leaf-file-name="UA_11_4_delOrg_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/UA_11_4_delOrg_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="-155">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UA_9_2_addRoleAuth_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UA_11_1_getOrgTree_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/UA_11_1_getOrgTree_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UA_11_2_getOrgInfo_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -413,6 +407,7 @@
     <findStrings>
       <find>“</find>
       <find>”</find>
+      <find>ua_online_employee</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -421,7 +416,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/login_base.py" />
         <option value="$PROJECT_DIR$/case/UA_7_5_addRoleEmp_test.py" />
         <option value="$PROJECT_DIR$/report/2017-06-12 19_44_18_result.html" />
         <option value="$PROJECT_DIR$/code_test.py" />
@@ -431,47 +425,48 @@
         <option value="$PROJECT_DIR$/case_user_ua/UA_USER_2_4_toModClause_test.py" />
         <option value="$PROJECT_DIR$/report/2017-06-23 15_19_11_result.html" />
         <option value="D:/PythonWorkspace/CreatProduct.py" />
-        <option value="$PROJECT_DIR$/case/UA_2_2login_test.py" />
-        <option value="$PROJECT_DIR$/case_user_ua/YANBAO_test.py" />
-        <option value="$PROJECT_DIR$/common/urlbase.py" />
         <option value="$PROJECT_DIR$/case_user_ua/UA_USER_2_1_search_clause_test.py" />
-        <option value="$PROJECT_DIR$/db/mysql_db.py" />
         <option value="$PROJECT_DIR$/db/mysql_db_2.py" />
         <option value="$PROJECT_DIR$/db_config.ini" />
         <option value="$PROJECT_DIR$/case_user_ua/UA_USER_2_3_getInsuracneTypes_test.py" />
         <option value="$PROJECT_DIR$/case_user_ua/UA_USER_2_4_delete_clause_test.py" />
         <option value="$PROJECT_DIR$/case_user_ua/UA_USER_2_5_toModClause_test.py" />
         <option value="$PROJECT_DIR$/case_user_ua/UA_USER_2_2_getInsuranceCompanys_test.py" />
+        <option value="$PROJECT_DIR$/case_user_ua/YANBAO_test.py" />
+        <option value="$PROJECT_DIR$/db/mysql_db.py" />
+        <option value="$PROJECT_DIR$/report/2017-10-31 14_48_55_result.html" />
         <option value="$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_2_3_logou_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_11_4_delOrg_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_11_1_getOrgTree_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_8_4_updateResStatus_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_8_3_createEdit_res_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_8_2_getResInfo_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_8_1_getResList_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_7_4_getRoleEmpList.htm_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_7_3_checkRoleName_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_7_2_creatEdit_role_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_7_1_search_role_info_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_6_2_delete_role_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_6_1_role_search_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_5_4_empname_duplicate_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_5_3_email_duplicate_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_5_2_phone_duplicate_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_5_1people_create_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_4_3_people_resetpwd_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_4_2_people_freeze_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_4_1_people_search_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_3_3_updatePwd.htm_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py" />
-        <option value="$PROJECT_DIR$/case/UA_3_1_get_info_test.py" />
-        <option value="$PROJECT_DIR$/run_tests.py" />
+        <option value="$PROJECT_DIR$/common/urlbase.py" />
         <option value="$PROJECT_DIR$/db/test_data.py" />
+        <option value="$PROJECT_DIR$/case/UA_2_2login_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_2_3_logou_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_3_1_get_info_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_3_3_updatePwd.htm_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_4_1_people_search_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_4_2_people_freeze_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_4_3_people_resetpwd_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_5_1people_create_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_5_2_phone_duplicate_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_5_3_email_duplicate_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_5_4_empname_duplicate_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_6_1_role_search_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_6_2_delete_role_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_7_1_search_role_info_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_7_2_creatEdit_role_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_7_3_checkRoleName_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_7_4_getRoleEmpList.htm_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_8_1_getResList_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_8_2_getResInfo_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_8_3_createEdit_res_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_8_4_updateResStatus_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_11_1_getOrgTree_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py" />
         <option value="$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py" />
+        <option value="$PROJECT_DIR$/case/UA_11_4_delOrg_test.py" />
+        <option value="$PROJECT_DIR$/run_tests.py" />
       </list>
     </option>
   </component>
@@ -484,7 +479,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -502,6 +497,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -556,45 +552,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DTB_API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DTB_API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case_user_ua" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DTB_API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DTB_API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="D:/DTB_Automation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
   </component>
@@ -612,72 +579,8 @@
       <recent name="D:\DTBrequests\case" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest emp_getResInfo_info.test_duplicate_id">
-    <configuration default="false" name="Unittests in get_ClauseList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case_user_ua" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DTBrequests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case_user_ua/UA_USER_2_1_search_clause_test.py" />
-      <option name="CLASS_NAME" value="get_ClauseList" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest get_ClauseList.test_token_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case_user_ua" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DTBrequests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case_user_ua/UA_USER_2_1_search_clause_test.py" />
-      <option name="CLASS_NAME" value="get_ClauseList" />
-      <option name="METHOD_NAME" value="test_token_success" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="run_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DTBrequests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in emp_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.run_tests">
+    <configuration default="false" name="Unittests in emp_getResInfo_info (3)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -688,8 +591,31 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DTBrequests" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py" />
-      <option name="CLASS_NAME" value="emp_login" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py" />
+      <option name="CLASS_NAME" value="emp_getResInfo_info" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in emp_getResInfo_info (4)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DTBrequests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py" />
+      <option name="CLASS_NAME" value="emp_getResInfo_info" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
@@ -721,6 +647,47 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in emp_getResInfo_info (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DTBrequests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/UA_11_4_delOrg_test.py" />
+      <option name="CLASS_NAME" value="emp_getResInfo_info" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DTBrequests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -938,19 +905,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in get_ClauseList" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest get_ClauseList.test_token_success" />
-      <item index="2" class="java.lang.String" itemvalue="Python.run_tests" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in emp_login" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest emp_getResInfo_info.test_duplicate_id" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest emp_getResInfo_info.test_duplicate_id" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run_tests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest emp_getResInfo_info.test_duplicate_id" />
-        <item index="1" class="java.lang.String" itemvalue="Python.run_tests" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in emp_login" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest get_ClauseList.test_token_success" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in get_ClauseList" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run_tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest emp_getResInfo_info.test_duplicate_id" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in emp_getResInfo_info (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -1035,56 +1002,63 @@
       <option name="project" value="LOCAL" />
       <updated>1504524137599</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="0908&#10;适配Linux&#10;">
+      <created>1504853881154</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1504853881154</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_emp_getResInfo_info_test_duplicate_id - 2017.09.07 at 21h 11m 03s.xml">
+    <history-entry file="Unittest_emp_getResInfo_info_test_duplicate_id - 2017.10.31 at 15h 52m 42s.xml">
       <configuration name="Unittest emp_getResInfo_info.test_duplicate_id" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_emp_getResInfo_info_test_duplicate_id - 2017.09.07 at 21h 11m 21s.xml">
-      <configuration name="Unittest emp_getResInfo_info.test_duplicate_id" configurationId="tests" />
+    <history-entry file="Unittest_emp_getResInfo_info_test_params_null - 2017.10.31 at 15h 51m 21s.xml">
+      <configuration name="Unittest emp_getResInfo_info.test_params_null" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_emp_getResInfo_info_test_duplicate_id - 2017.09.07 at 21h 14m 04s.xml">
-      <configuration name="Unittest emp_getResInfo_info.test_duplicate_id" configurationId="tests" />
+    <history-entry file="Unittests_in_emp_getResInfo_info - 2017.10.31 at 15h 51m 59s.xml">
+      <configuration name="Unittests in emp_getResInfo_info" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_emp_getResInfo_info_test_duplicate_id - 2017.09.07 at 21h 14m 32s.xml">
-      <configuration name="Unittest emp_getResInfo_info.test_duplicate_id" configurationId="tests" />
+    <history-entry file="Unittests_in_emp_getResInfo_info_(1) - 2017.10.31 at 15h 51m 10s.xml">
+      <configuration name="Unittests in emp_getResInfo_info (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_get_ClauseList_test_token_success - 2017.09.07 at 20h 30m 38s.xml">
-      <configuration name="Unittest get_ClauseList.test_token_success" configurationId="tests" />
+    <history-entry file="Unittests_in_emp_getResInfo_info_(1) - 2017.10.31 at 15h 54m 42s.xml">
+      <configuration name="Unittests in emp_getResInfo_info (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_get_ClauseList_test_token_success - 2017.09.07 at 20h 31m 19s.xml">
-      <configuration name="Unittest get_ClauseList.test_token_success" configurationId="tests" />
+    <history-entry file="Unittests_in_emp_getResInfo_info_(2) - 2017.10.31 at 15h 51m 37s.xml">
+      <configuration name="Unittests in emp_getResInfo_info (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_get_ClauseList_test_token_success - 2017.09.07 at 20h 35m 58s.xml">
-      <configuration name="Unittest get_ClauseList.test_token_success" configurationId="tests" />
+    <history-entry file="Unittests_in_emp_getResInfo_info_(3) - 2017.10.31 at 15h 52m 08s.xml">
+      <configuration name="Unittests in emp_getResInfo_info (3)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_emp_login - 2017.09.07 at 20h 43m 56s.xml">
-      <configuration name="Unittests in emp_login" configurationId="tests" />
+    <history-entry file="Unittests_in_emp_getResInfo_info_(4) - 2017.10.31 at 15h 52m 18s.xml">
+      <configuration name="Unittests in emp_getResInfo_info (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_get_ClauseList - 2017.09.07 at 20h 29m 46s.xml">
-      <configuration name="Unittests in get_ClauseList" configurationId="tests" />
+    <history-entry file="Unittests_in_emp_getResInfo_info_(4) - 2017.10.31 at 15h 54m 07s.xml">
+      <configuration name="Unittests in emp_getResInfo_info (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_get_ClauseList_(5) - 2017.09.06 at 17h 09m 12s.xml">
-      <configuration name="Unittests in get_ClauseList (5)" configurationId="tests" />
+    <history-entry file="Unittests_in_emp_updateResStatus_info - 2017.10.31 at 15h 50m 59s.xml">
+      <configuration name="Unittests in emp_updateResStatus_info" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19123931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44034708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.318872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35032538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31127983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1126,133 +1100,20 @@
     <MESSAGE value="0613&#10;" />
     <MESSAGE value="0626&#10;增加 ua_user_test 用例集&#10;" />
     <MESSAGE value="0904&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="0904&#10;" />
+    <MESSAGE value="0908&#10;适配Linux&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="0908&#10;适配Linux&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="41" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Python36/Lib/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="626" column="8" lean-forward="false" selection-start-line="626" selection-start-column="8" selection-end-line="626" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case_user_ua/YANBAO_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-09-07 18_50_53_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="267" column="25" lean-forward="false" selection-start-line="267" selection-start-column="12" selection-end-line="267" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-09-07 18_53_52_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="105" lean-forward="true" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/mysql_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#39#0" expanded="true" />
-            <marker date="1504786852383" expanded="true" signature="1744:1772" ph="DELETE from " />
-            <marker date="1504786852383" expanded="true" signature="2891:2922" ph="select %s fr... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/mysql_db_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <marker date="1504787478220" expanded="true" signature="1737:1765" ph="DELETE from " />
-            <marker date="1504787478220" expanded="true" signature="2918:2949" ph="select %s fr... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case_user_ua/UA_USER_2_3_getInsuracneTypes_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-09-07 20_37_27_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-09-07 20_39_17_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case_user_ua/UA_USER_2_2_getInsuranceCompanys_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-09-07 20_40_44_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case_user_ua/UA_USER_2_4_delete_clause_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-572">
           <caret line="20" column="72" lean-forward="false" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,267 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_2_2login_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/urlbase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_11_4_delOrg_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_11_1_getOrgTree_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_8_4_updateResStatus_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_8_3_createEdit_res_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_8_2_getResInfo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_8_1_getResList_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_7_4_getRoleEmpList.htm_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_7_3_checkRoleName_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_7_2_creatEdit_role_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_7_1_search_role_info_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_6_2_delete_role_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_6_1_role_search_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_5_4_empname_duplicate_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_5_3_email_duplicate_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_5_2_phone_duplicate_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_5_1people_create_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_4_3_people_resetpwd_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_4_1_people_search_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_3_3_updatePwd.htm_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_3_1_get_info_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_2_3_logou_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1536,48 +1135,376 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/UA_4_2_people_freeze_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="102" column="28" lean-forward="false" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="98" column="61" lean-forward="false" selection-start-line="98" selection-start-column="61" selection-end-line="98" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/report/2017-09-07 21_07_32_result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1248">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21745">
+          <caret line="662" column="0" lean-forward="false" selection-start-line="662" selection-start-column="0" selection-end-line="662" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PythonWorkspace/study/machine_study/nb.py" />
+    <entry file="file://D:/PythonWorkspace/study/machine_study/panda.py" />
+    <entry file="file://D:/DTB_Automation/TestCasesRepository/insure_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case_user_ua/YANBAO_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-10-31 14_48_55_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mysql_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="e#17#39#0" expanded="true" />
+            <marker date="1509433323137" expanded="true" signature="1744:1772" ph="DELETE from " />
+            <marker date="1509433323137" expanded="true" signature="2891:2922" ph="select %s fr... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/login_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="129" lean-forward="false" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_2_2login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/urlbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_2_3_logou_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_3_1_get_info_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_3_3_updatePwd.htm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_4_1_people_search_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_4_2_people_freeze_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_4_3_people_resetpwd_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_5_1people_create_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_5_2_phone_duplicate_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_5_3_email_duplicate_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_5_4_empname_duplicate_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_6_1_role_search_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_6_2_delete_role_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_7_1_search_role_info_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_7_2_creatEdit_role_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="109" column="31" lean-forward="true" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_7_3_checkRoleName_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_7_4_getRoleEmpList.htm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_8_1_getResList_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_8_2_getResInfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_8_3_createEdit_res_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_8_4_updateResStatus_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_11_1_getOrgTree_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1794">
-          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        <state relative-caret-position="312">
+          <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/UA_11_4_delOrg_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-10-31 15_55_05_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/run_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>

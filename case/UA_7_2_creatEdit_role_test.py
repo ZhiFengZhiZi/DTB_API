@@ -14,7 +14,7 @@ class emp_createEdit_role_info(unittest.TestCase):
     ''' 新增编辑角色详情接口 '''
 
     def setUp(self):
-        self.emp = urlbase.list()[0]
+        self.emp = urlbase.UA_url()
         test_data.ua_role_insert(count=1)
         test_data.ua_emp_insert(count=1)
 
