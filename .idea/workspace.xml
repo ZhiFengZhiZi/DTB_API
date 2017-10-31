@@ -6,44 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="411f5e08-373d-4949-98af-b72f6ea95d66" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-05-26 17_02_39_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-06-09 17_19_07_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-06-12 20_47_58_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-06-13 09_44_40_result.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/Email.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_11_1_getOrgTree_test.py" afterPath="$PROJECT_DIR$/case/UA_11_1_getOrgTree_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py" afterPath="$PROJECT_DIR$/case/UA_11_2_getOrgInfo_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py" afterPath="$PROJECT_DIR$/case/UA_11_3_saveOrg_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_11_4_delOrg_test.py" afterPath="$PROJECT_DIR$/case/UA_11_4_delOrg_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py" afterPath="$PROJECT_DIR$/case/UA_2_1_verifyCode_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_2_2login_test.py" afterPath="$PROJECT_DIR$/case/UA_2_2login_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_2_3_logou_test.py" afterPath="$PROJECT_DIR$/case/UA_2_3_logou_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_3_1_get_info_test.py" afterPath="$PROJECT_DIR$/case/UA_3_1_get_info_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py" afterPath="$PROJECT_DIR$/case/UA_3_2_getEmpResource_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_3_3_updatePwd.htm_test.py" afterPath="$PROJECT_DIR$/case/UA_3_3_updatePwd.htm_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_4_1_people_search_test.py" afterPath="$PROJECT_DIR$/case/UA_4_1_people_search_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_4_2_people_freeze_test.py" afterPath="$PROJECT_DIR$/case/UA_4_2_people_freeze_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_4_3_people_resetpwd_test.py" afterPath="$PROJECT_DIR$/case/UA_4_3_people_resetpwd_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_5_1people_create_test.py" afterPath="$PROJECT_DIR$/case/UA_5_1people_create_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_5_2_phone_duplicate_test.py" afterPath="$PROJECT_DIR$/case/UA_5_2_phone_duplicate_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_5_3_email_duplicate_test.py" afterPath="$PROJECT_DIR$/case/UA_5_3_email_duplicate_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_5_4_empname_duplicate_test.py" afterPath="$PROJECT_DIR$/case/UA_5_4_empname_duplicate_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_6_1_role_search_test.py" afterPath="$PROJECT_DIR$/case/UA_6_1_role_search_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_6_2_delete_role_test.py" afterPath="$PROJECT_DIR$/case/UA_6_2_delete_role_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_7_1_search_role_info_test.py" afterPath="$PROJECT_DIR$/case/UA_7_1_search_role_info_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_7_2_creatEdit_role_test.py" afterPath="$PROJECT_DIR$/case/UA_7_2_creatEdit_role_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_7_3_checkRoleName_test.py" afterPath="$PROJECT_DIR$/case/UA_7_3_checkRoleName_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_7_4_getRoleEmpList.htm_test.py" afterPath="$PROJECT_DIR$/case/UA_7_4_getRoleEmpList.htm_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_8_1_getResList_test.py" afterPath="$PROJECT_DIR$/case/UA_8_1_getResList_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_8_2_getResInfo_test.py" afterPath="$PROJECT_DIR$/case/UA_8_2_getResInfo_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_8_3_createEdit_res_test.py" afterPath="$PROJECT_DIR$/case/UA_8_3_createEdit_res_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_8_4_updateResStatus_test.py" afterPath="$PROJECT_DIR$/case/UA_8_4_updateResStatus_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py" afterPath="$PROJECT_DIR$/case/UA_9_1_getRoleAuthInfo_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py" afterPath="$PROJECT_DIR$/case/UA_9_2_addRoleAuth_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/urlbase.py" afterPath="$PROJECT_DIR$/common/urlbase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mysql_db.py" afterPath="$PROJECT_DIR$/db/mysql_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/test_data.py" afterPath="$PROJECT_DIR$/db/test_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_tests.py" afterPath="$PROJECT_DIR$/run_tests.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -313,11 +277,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run_tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
               <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Email.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/Email.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -477,8 +451,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="y" value="90" />
     <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
@@ -561,22 +534,22 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/PyDomain/Demo" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DTB_API\case" />
-      <recent name="D:\DTBrequests" />
-      <recent name="D:\DTBrequests\db" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DTB_API\common" />
       <recent name="D:\DTB_API\case_user_ua" />
       <recent name="D:\DTB_API\case" />
       <recent name="D:\DTB_API\db" />
       <recent name="D:\DTB_API" />
-      <recent name="D:\DTBrequests\case" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DTB_API\case" />
+      <recent name="D:\DTBrequests" />
+      <recent name="D:\DTBrequests\db" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run_tests">
@@ -1009,7 +982,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504853881154</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1031 EDIT&#10;">
+      <created>1509437073463</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1509437073463</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1045,7 +1025,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="0" y="90" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19123931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1101,7 +1081,8 @@
     <MESSAGE value="0626&#10;增加 ua_user_test 用例集&#10;" />
     <MESSAGE value="0904&#10;" />
     <MESSAGE value="0908&#10;适配Linux&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="0908&#10;适配Linux&#10;" />
+    <MESSAGE value="1031 EDIT&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1031 EDIT&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1110,13 +1091,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case_user_ua/UA_USER_2_4_delete_clause_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="20" column="72" lean-forward="false" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case_user_ua/UA_USER_2_5_toModClause_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1486,7 +1460,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1496,7 +1470,7 @@
         <state relative-caret-position="234">
           <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1505,6 +1479,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
